@@ -17,15 +17,8 @@ import Svg from "./components/Svg";
 export default function HeroSection() {
   const animationContainer = useRef(null);
 
-  useEffect(() => {
-    lottie.loadAnimation({
-      container: animationContainer.current,
-      renderer: 'svg',
-      loop: true,
-      autoplay: true,
-      path: '/animation.json'
-    });
-  }, []);
+
+  
 
   return (
     <>
