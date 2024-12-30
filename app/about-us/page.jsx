@@ -605,7 +605,7 @@ const page = () => {
                     key={index}
                     className="md:w-6/12 lg:w-6/12 xl:w-3/12 flex-[0_0_auto] px-[15px] mt-[30px] max-w-full "
                   >
-                    <div className="bg-white rounded-md shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)] card-border-bottom !border-[#c5d7f6] after:!border-t-[calc(0.4rem_-_6px)] after:!border-b-[6px]">
+                    <div className="bg-white rounded-md shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)] border-b-4 !border-[#c5d7f6] after:!border-t-[calc(0.4rem_-_6px)] after:!border-b-[6px]">
                       <div className="flex-[1_1_auto] p-[40px]">
                         <blockquote className="text-base !leading-[1.7] font-medium m-[0_0_1rem] pl-4 icon !mb-0 relative p-0 border-0 text-gray-500">
                           <p>{item.text}</p>
