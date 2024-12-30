@@ -6,6 +6,7 @@ import {
   EnvelopeIcon,
   PhoneIcon,
 } from "@heroicons/react/24/outline";
+import FooterBlock from "../components/Footer";
 
 const items = [
   {
@@ -575,9 +576,9 @@ const page = () => {
             </div>
           </div>
 
-          <div className="">
+          <div className="relative">
             <div className="mb-20 max-w-7xl mx-auto ">
-              <div className="flex flex-wrap mx-[-15px] mt-[-8rem] isotope relative">
+              <div className="flex flex-wrap mx-[-15px] mt-[-8rem] isotope z-10">
                 {[
                   {
                     text: "Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta. Cras mattis consectetur.",
@@ -595,25 +596,27 @@ const page = () => {
                     role: "Sales Manager",
                   },
                   {
-                    text: "Etiam adipiscing tincidunt elit convallis felis suscipit ut. Phasellus rhoncus eu tincidunt auctor nullam rutrum, pharetra augue.",
+                    text: "Etiam adipiscing tincidunt elit convallis felis suscipit ut. Phasellus rhoncus eu tincidunt auctor nullam vitae libero.",
                     name: "Coriss Ambady",
                     role: "Financial Analyst",
                   },
                 ].map((item, index) => (
                   <div
                     key={index}
-                    className="md:w-6/12 lg:w-6/12 xl:w-3/12 flex-[0_0_auto] px-[15px] mt-[30px] max-w-full"
+                    className="md:w-6/12 lg:w-6/12 xl:w-3/12 flex-[0_0_auto] px-[15px] mt-[30px] max-w-full "
                   >
-                    <div className="rounded-md shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)] card-border-bottom !border-[#c5d7f6] after:!border-t-[calc(0.4rem_-_6px)] after:!border-b-[6px]">
+                    <div className="bg-white rounded-md shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)] card-border-bottom !border-[#c5d7f6] after:!border-t-[calc(0.4rem_-_6px)] after:!border-b-[6px]">
                       <div className="flex-[1_1_auto] p-[40px]">
-                        <blockquote className="!text-[.85rem] !leading-[1.7] font-medium m-[0_0_1rem] pl-4 icon !mb-0 relative p-0 border-0">
+                        <blockquote className="text-base !leading-[1.7] font-medium m-[0_0_1rem] pl-4 icon !mb-0 relative p-0 border-0 text-gray-500">
                           <p>{item.text}</p>
                           <div className="flex items-center text-left">
-                            <div className="info !pl-0">
-                              <h5 className="!mb-1 text-[.9rem] !leading-[1.5]">
+                            <div className="mt-2 !pl-0">
+                              <h5 className="!mb-1 text- font-semibold !leading-[1.5] text-gray-700 ">
                                 {item.name}
                               </h5>
-                              <p className="!mb-0 text-[0.8rem]">{item.role}</p>
+                              <p className="!mb-0 text-[0.8rem] text-gray-400">
+                                {item.role}
+                              </p>
                             </div>
                           </div>
                         </blockquote>
@@ -640,7 +643,7 @@ const page = () => {
           </div>
         </section>
 
-        <section className=" mx-auto py-16">
+        <section className=" mx-auto pt-16">
           <div className="relative isolate bg-white">
             <div className="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
               <div className="relative px-6 pb-20 pt-24 sm:pt-32 lg:static lg:px-8 lg:py-48">
@@ -850,6 +853,7 @@ const page = () => {
           </div>
         </section>
       </main>
+      <FooterBlock />
     </>
   );
 };
