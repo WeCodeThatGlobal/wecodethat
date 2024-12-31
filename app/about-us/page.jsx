@@ -14,11 +14,13 @@ const page = () => {
     <>
       <Navbar />
       <main>
-        <section className="max-w-7xl mx-auto">
+        <section className="max-w-7xl mx-auto w-full">
           <HeroSection />
+        </section>
 
-          <WhoWeAre />
+        <WhoWeAre />
 
+        <section className="max-w-7xl mx-auto">
           <WhatWeDo />
         </section>
 
