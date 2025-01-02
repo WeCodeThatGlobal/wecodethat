@@ -1,4 +1,5 @@
 "use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import { Navbar } from "./components/Navbar";
@@ -8,6 +9,7 @@ import Footer from "./components/Footer";
 import Testimonials from "./components/Testimonials";
 import Numbers from "./components/Numbers";
 import Works from "./components/Works";
+import CaseStudy from "./components/CaseStudy";
 import CTA from "./components/CTA";
 import { useEffect, useRef } from 'react';
 import Svg from "./components/Svg";
@@ -101,6 +103,7 @@ export default function HeroSection() {
       <Testimonials />
       <Numbers />
       <Works />
+      <CaseStudy />
       <Footer />
     </>
   );
