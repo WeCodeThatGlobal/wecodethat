@@ -10,7 +10,6 @@ import Numbers from "./components/Numbers";
 import Works from "./components/Works";
 import CTA from "./components/CTA";
 import { useEffect, useRef } from 'react';
-import lottie from 'lottie-web';
 import Svg from "./components/Svg";
 
 
