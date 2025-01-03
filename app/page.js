@@ -9,8 +9,7 @@ import Testimonials from "./components/Testimonials";
 import Numbers from "./components/Numbers";
 import Works from "./components/Works";
 import CTA from "./components/CTA";
-import { useEffect, useRef } from "react";
-import lottie from "lottie-web";
+import { useEffect, useRef } from 'react';
 import Svg from "./components/Svg";
 
 export default function HeroSection() {
