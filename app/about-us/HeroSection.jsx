@@ -2,10 +2,10 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="relative isolate -z-10">
+    <div className="relative isolate overflow-hidden">
       <svg
         aria-hidden="true"
-        className="absolute inset-x-0 top-0 -z-10 h-[64rem] w-full stroke-gray-200 [mask-image:radial-gradient(32rem_32rem_at_center,white,transparent)]"
+        className="absolute inset-x-0 top-0 z-0 h-[64rem] w-full stroke-gray-500 [mask-image:radial-gradient(32rem_32rem_at_center,white,transparent)]"
       >
         <defs>
           <pattern
@@ -19,7 +19,7 @@ const Header = () => {
             <path d="M.5 200V.5H200" fill="none" />
           </pattern>
         </defs>
-        <svg x="50%" y={-1} className="overflow-visible fill-gray-50">
+        <svg x="50%" y={-1} className="overflow-visible">
           <path
             d="M-200 0h201v201h-201Z M600 0h201v201h-201Z M-400 600h201v201h-201Z M200 800h201v201h-201Z"
             strokeWidth={0}
@@ -45,76 +45,26 @@ const Header = () => {
         />
       </div>
       <div>
-        <div className="px-6 pb-32 pt-36 sm:pt-60 lg:px-8 lg:pt-32">
-          <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
-            <div className="relative w-full lg:max-w-xl lg:shrink-0 xl:max-w-2xl">
-              <h1 className="text-pretty text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl">
-                We’re changing the way people connect
+        <div className="px-6 pb-32 pt-36 sm:pt-60 lg:px-8 lg:pt-32 text-center">
+          <div className="mx-auto gap-x-14 lg:mx-0 lg:max-w-none ">
+            <div className="relative w-full max-w-3xl mx-auto">
+              <h1 className="text-5xl font-semibold tracking-tight text-white sm:text-7xl sm:leading-tight">
+                <span className="sm:text-9xl">Hello,</span> <br /> we’re
+                WeCodeThat.
               </h1>
-              <p className="mt-8 text-pretty text-lg font-medium text-gray-500 sm:max-w-md sm:text-xl/8 lg:max-w-none">
-                Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-                lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-                fugiat aliqua. Anim aute id magna aliqua ad ad non deserunt
-                sunt.
+              <p className="mt-6 text-pretty text-lg font-medium text-white sm:text-xl/8">
+                We are a digital agency that crafts innovative websites, mobile
+                apps, and digital strategies designed to help your business
+                thrive in the digital world. Let’s create something exceptional,
+                together.
               </p>
-              <div className="mt-10 flex items-center gap-x-6">
+              <div className="mt-10 flex items-center justify-center gap-x-6 w-full">
                 <a
                   href="#"
-                  className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                  className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold hover:text-white hover:bg-black hover:shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)]  hover:shadow-gray-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 >
-                  Get started
+                  Start Your Journey with Us<span aria-hidden="true">→</span>
                 </a>
-                <a href="#" className="text-sm/6 font-semibold text-gray-900">
-                  Live demo <span aria-hidden="true">→</span>
-                </a>
-              </div>
-            </div>
-            <div className="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">
-              <div className="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">
-                <div className="relative">
-                  <img
-                    alt=""
-                    src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=528&q=80"
-                    className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
-                  />
-                  <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
-                </div>
-              </div>
-              <div className="mr-auto w-44 flex-none space-y-8 sm:mr-0 sm:pt-52 lg:pt-36">
-                <div className="relative">
-                  <img
-                    alt=""
-                    src="https://images.unsplash.com/photo-1485217988980-11786ced9454?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=528&q=80"
-                    className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
-                  />
-                  <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
-                </div>
-                <div className="relative">
-                  <img
-                    alt=""
-                    src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-x=.4&w=396&h=528&q=80"
-                    className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
-                  />
-                  <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
-                </div>
-              </div>
-              <div className="w-44 flex-none space-y-8 pt-32 sm:pt-0">
-                <div className="relative">
-                  <img
-                    alt=""
-                    src="https://images.unsplash.com/photo-1670272504528-790c24957dda?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=left&w=400&h=528&q=80"
-                    className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
-                  />
-                  <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
-                </div>
-                <div className="relative">
-                  <img
-                    alt=""
-                    src="https://images.unsplash.com/photo-1670272505284-8faba1c31f7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=528&q=80"
-                    className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
-                  />
-                  <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
-                </div>
               </div>
             </div>
           </div>

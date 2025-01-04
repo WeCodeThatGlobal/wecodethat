@@ -2,12 +2,12 @@ import React from "react";
 
 const Testimonials = () => {
   return (
-    <div className="max-w-[90rem]  mx-auto px-5 py-20 !bg-[#ffffff]">
+    <div className="max-w-[90rem] mx-auto px-5 py-20 !bg-[#ffffff]">
       <div
-        className="rounded-lg bg-overlay bg-overlay-light-500 pb-20 [background-size:100%] bg-[center_center] bg-no-repeat !bg-scroll relative z-0 before:content-[''] before:block before:absolute before:z-[1] before:w-full before:h-full before:left-0 before:top-0  xxl:rounded-[.8rem] "
+        className="rounded-lg bg-overlay bg-overlay-light-500 pb-20 bg-contain bg-[center_center] bg-no-repeat !bg-scroll relative z-0 before:content-[''] before:block before:absolute before:z-[1] before:w-full before:h-full before:left-0 before:top-0  xxl:rounded-[.8rem] "
         data-image-src="../../assets/img/photos/bg22.png"
         style={{
-          backgroundImage: "url(/images/bg22.png)",
+          backgroundImage: "url(/images/map.png)",
         }}
       >
         <div className="max-w-7xl m-auto py-[4.5rem] px-0">
