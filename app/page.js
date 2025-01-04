@@ -11,7 +11,13 @@ import Numbers from "./components/Numbers";
 import Works from "./components/Works";
 import CaseStudy from "./components/CaseStudy";
 import CTA from "./components/CTA";
+<<<<<<< HEAD
 import { useEffect, useRef } from 'react';
+=======
+import Service from "./components/Service";
+import { useEffect, useRef } from "react";
+import lottie from "lottie-web";
+>>>>>>> 557e0b2 (adding content to home page)
 import Svg from "./components/Svg";
 
 export default function HeroSection() {
@@ -103,6 +109,7 @@ export default function HeroSection() {
       <Testimonials />
       <Numbers />
       <Works />
+      <Service />
       <CaseStudy />
       <Footer />
     </>

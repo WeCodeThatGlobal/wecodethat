@@ -4,7 +4,7 @@ import Link from "next/link";
 const CaseStudy = () => {
   return (
     <section className="py-20 bg-[f9f9fb]">
-      <div className="max-w-7xl mx-auto px-5 sm:px-10 md:px-12 lg:px-5 space-y-16">
+      <div className="max-w-7xl mx-auto px-5 xs:px-10 md:px-12 lg:px-5 space-y-16">
         <div className="w-full space-y-3 text-center">
           <h1 className="text-3xl font-semibold text-blue-950 dark:text-white md:text-4xl xl:text-5xl leading-tight tracking-tight">
             Take a look at our articles & resources
@@ -26,7 +26,7 @@ const CaseStudy = () => {
                   alt="Corporate case study illustration"
                   className="h-full w-full object-cover"
                 />
-                <p className="bg-indigo-200 text-indigo-800 px-4 py-1 inline-block text-sm font-semibold rounded-2xl absolute bottom-4 left-6">
+                <p className="bg-indigo-200 text-indigo-800 px-4 py-1 inline-block text-xs font-semibold rounded-2xl absolute bottom-4 left-6">
                   Corporate
                 </p>
               </div>
@@ -39,9 +39,11 @@ const CaseStudy = () => {
                 </Link>
                 <div className="flex justify-between my-2 items-center">
                   <div className="flex gap-x-6">
-                    <Link href="/">AFIF</Link>
+                    <Link href="/" className="text-sm text-gray-700">
+                      AFIF
+                    </Link>
                     <ul className="list-disc list-outside text-gray-600">
-                      <li className="text-gray-500">Jan 01, 2025</li>
+                      <li className="text-gray-500 text-sm">Jan 01, 2025</li>
                     </ul>
                   </div>
                   <div className="w-10 h-10 border border-gray-200 flex justify-center items-center rounded-full">
@@ -77,12 +79,12 @@ const CaseStudy = () => {
                     alt="Corporate case study overview"
                     className="h-full w-full object-cover"
                   />
-                  <p className="bg-purple-200 text-purple-800 px-4 py-1 inline-block text-sm font-semibold rounded-2xl absolute bottom-4 left-6 lg:hidden">
+                  <p className="bg-purple-200 text-purple-800 px-4 py-1 inline-block text-xs font-semibold rounded-2xl absolute bottom-4 left-6 lg:hidden">
                     Corporate
                   </p>
                 </div>
                 <div className="pt-6 px-6 flex-1 pb-6 lg:pb-0">
-                  <p className="bg-purple-200 text-purple-800 px-4 py-1 lg:inline-block text-sm font-semibold rounded-2xl mb-3 hidden">
+                  <p className="bg-purple-200 text-purple-800 px-4 py-1 lg:inline-block text-xs font-semibold rounded-2xl mb-3 hidden">
                     Corporate
                   </p>
                   <Link href="/">
@@ -130,12 +132,12 @@ const CaseStudy = () => {
                     alt="Corporate case study overview"
                     className="h-full w-full object-cover"
                   />
-                  <p className="bg-amber-200 text-amber-800  px-4 py-1 inline-block text-sm font-semibold rounded-2xl absolute bottom-4 left-6 lg:hidden">
+                  <p className="bg-amber-200 text-amber-800  px-4 py-1 inline-block text-xs font-semibold rounded-2xl absolute bottom-4 left-6 lg:hidden">
                     Corporate
                   </p>
                 </div>
                 <div className="pt-6 px-6 flex-1 pb-6 lg:pb-0">
-                  <p className="bg-amber-200 text-amber-800 px-4 py-1 lg:inline-block text-sm font-semibold rounded-2xl mb-3 hidden">
+                  <p className="bg-amber-200 text-amber-800 px-4 py-1 lg:inline-block text-xs font-semibold rounded-2xl mb-3 hidden">
                     Corporate
                   </p>
                   <Link href="/">

@@ -72,7 +72,11 @@ const Service = () => {
                   <div className="h-full bg-gradient-to-b from-black/10 to-black/75 bg-opacity-75 transition duration-300 group-hover:bg-black group-hover:bg-opacity-30">
                     <div className="h-[100px] relative"></div>
                     <div className="px-5 pt-5 pb-5">
+<<<<<<< HEAD
                       <div className="">
+=======
+                      <div className="absolute w-full bottom-0 left-0">
+>>>>>>> 557e0b2 (adding content to home page)
                         <h3 className="text-2xl font-semibold mb-2 text-gray-50">
                           Promotion Ads
                         </h3>
