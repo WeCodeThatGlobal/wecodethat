@@ -11,10 +11,10 @@ const WhatWeDo = () => {
                 <div className="rounded-xl !bg-[#fef3e4]">
                   <div className="p-[40px]">
                     <img src="/svg/seo.svg" className="w-11 mb-3" alt="icon" />
-                    <h4>SEO Services</h4>
-                    <p className="!mb-0">
-                      Nulla vitae elit libero, a pharetra augue. Donec id elit
-                      non mi porta.
+                    <h4 className="text-gray-900">Custom Web Development</h4>
+                    <p className="!mb-0 text-gray-600">
+                      Crafting high-performing, user-friendly websites that
+                      scale with your business.
                     </p>
                   </div>
                 </div>
@@ -24,10 +24,10 @@ const WhatWeDo = () => {
                 <div className="rounded-xl !bg-[#fae6e7]">
                   <div className="p-[40px]">
                     <img src="/svg/tab.svg" className="w-11 mb-3" alt="icon" />
-                    <h4>Web Design</h4>
-                    <p className="!mb-0">
-                      Nulla vitae elit libero, a pharetra augue. Donec id elit
-                      non mi porta.
+                    <h4 className="text-gray-900">Mobile App Development</h4>
+                    <p className="!mb-0 text-gray-600">
+                      Building intuitive apps that cater to the diverse needs of
+                      mobile users.
                     </p>
                   </div>
                 </div>
@@ -41,9 +41,10 @@ const WhatWeDo = () => {
                       className="w-11 mb-3"
                       alt="icon"
                     />
-                    <h4>Social Engagement</h4>
-                    <p className="!mb-0">
-                      Nulla vitae elit libero, a pharetra augue.
+                    <h4 className="text-gray-900">E-Commerce Solutions</h4>
+                    <p className="!mb-0 text-gray-600">
+                      Creating online stores that offer seamless shopping
+                      experiences for customers.
                     </p>
                   </div>
                 </div>
@@ -53,10 +54,10 @@ const WhatWeDo = () => {
                 <div className="rounded-xl !bg-[#e0e9fa]">
                   <div className=" p-[40px]">
                     <img src="/svg/mics.svg" className="w-11 mb-3" alt="icon" />
-                    <h4>Content Marketing</h4>
-                    <p className="!mb-0">
-                      Nulla vitae elit libero, a pharetra augue. Donec id elit
-                      non mi porta gravida at eget.
+                    <h4 className="text-gray-900">Digital Marketing</h4>
+                    <p className="!mb-0 text-gray-600">
+                      Developing comprehensive strategies to enhance your brand
+                      visibility and engagement online
                     </p>
                   </div>
                 </div>
@@ -69,11 +70,14 @@ const WhatWeDo = () => {
               What We Do?
             </h2>
             <h3 className="text-lg font-semibold lg:text-4xl mb-3 !leading-[1.3] text-gray-700">
-              The service we offer is specifically designed to meet your needs.
+              Digital Solutions <br />
+              Designed with You in Mind
             </h3>
-            <p className="text-[21px] leading-relaxed font-medium mb-3 text-gray-500">
-              We are a digital and branding company that believes in the power
-              of creative strategy and along with great design.
+            <p className="text-[17px] leading-relaxed font-medium mb-3 text-gray-500">
+              We’re dedicated to crafting thoughtful, personalized digital
+              solutions that meet your business needs. Your goals are at the
+              heart of everything we do, and we work closely with you to bring
+              them to life.
             </p>
 
             <svg

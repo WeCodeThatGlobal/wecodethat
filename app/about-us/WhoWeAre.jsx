@@ -23,127 +23,33 @@ const items = [
 
 const WhoWeAre = () => {
   return (
-    <div className="py-20 bg-gray-900 ">
+    <div className="py-20">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col lg:flex-row ">
           <div className="xl:w-6/12 lg:w-6/12 w-full flex-auto lg:px-5 px-4 mt-12 max-w-full">
-            <div>
-              <h2 className="text-lg font-bold lg:text-3xl leading-6 mb-3 text-gray-100">
-                Who Are We?
+            <div className=" h-full">
+              <h2 className="!text-[.75rem] uppercase text-[#aab0bc] !mb-3 tracking-[0.02rem] leading-[1.35]">
+                Who we are?
               </h2>
-              <p className="text-[21px] leading-relaxed font-medium mb-3 text-gray-500">
-                We are a digital and branding company that believes in the power
-                of creative strategy and along with great design.
+              <h3 className="text-lg font-semibold lg:text-4xl mb-3 !leading-[1.3] text-gray-700">
+                Your Trusted Partners <br /> in Digital Innovation
+              </h3>
+              <p className="text-[17px] leading-relaxed font-medium mb-3 text-gray-500">
+                Founded with a vision to bridge the gap between business needs
+                and technology solutions, WeCodeThat has quickly established
+                itself as a leading provider of tailored digital services. Our
+                diverse team of developers, designers, and marketers work
+                closely with clients to craft unique, user-centric solutions
+                that drive growth and create long-lasting impact.
               </p>
-              <p className="mb-3 text-gray-500">
-                Cum sociis natoque penatibus et magnis dis parturient montes,
-                nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis
-                in, egestas eget quam. Praesent commodo cursus magna, vel
-                scelerisque nisl consectetur et.
+              <p className="text-[17px] leading-relaxed font-medium mb-3 text-gray-500">
+                We understand that every business is unique, and we believe that
+                your website and digital presence should reflect your individual
+                vision. That’s why we focus on creating bespoke solutions that
+                align with your goals, target audience, and business values.
+                From e-commerce platforms to mobile apps and SEO strategies, we
+                cover all aspects of digital development.
               </p>
-              <div className="flex flex-wrap -mx-4 mt-4">
-                <div className="xl:w-6/12 w-full mt-4 xl:px-5 px-4 max-w-full">
-                  <ul className="list-none space-y-3 text-gray-500">
-                    <li className="relative pl-6">
-                      <span>
-                        <i className="uil uil-check w-4 h-4 flex items-center justify-center bg-blue-100 text-blue-600 rounded-full absolute left-0 top-1/2 -translate-y-1/2">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            strokeWidth={2}
-                            stroke="currentColor"
-                            className="size-3"
-                          >
-                            <path
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              d="m4.5 12.75 6 6 9-13.5"
-                            />
-                          </svg>
-                        </i>
-                      </span>
-                      <span>
-                        Aenean eu leo quam ornare curabitur blandit tempus.
-                      </span>
-                    </li>
-                    <li className="relative pl-6">
-                      <span>
-                        <i className="uil uil-check w-4 h-4 flex items-center justify-center bg-blue-100 text-blue-600 rounded-full absolute left-0 top-1/2 -translate-y-1/2">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            strokeWidth={2}
-                            stroke="currentColor"
-                            className="size-3"
-                          >
-                            <path
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              d="m4.5 12.75 6 6 9-13.5"
-                            />
-                          </svg>
-                        </i>
-                      </span>
-                      <span>
-                        Nullam quis risus eget urna mollis ornare donec elit.
-                      </span>
-                    </li>
-                  </ul>
-                </div>
-
-                <div className="xl:w-6/12 w-full mt-4 xl:px-5 px-4 max-w-full">
-                  <ul className="list-none space-y-3 text-gray-500">
-                    <li className="relative pl-6">
-                      <span>
-                        <i className="uil uil-check w-4 h-4 flex items-center justify-center bg-blue-100 text-blue-600 rounded-full absolute left-0 top-1/2 -translate-y-1/2">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            strokeWidth={2}
-                            stroke="currentColor"
-                            className="size-3"
-                          >
-                            <path
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              d="m4.5 12.75 6 6 9-13.5"
-                            />
-                          </svg>
-                        </i>
-                      </span>
-                      <span>
-                        Etiam porta sem malesuada magna mollis euismod.
-                      </span>
-                    </li>
-                    <li className="relative pl-6">
-                      <span>
-                        <i className="uil uil-check w-4 h-4 flex items-center justify-center bg-blue-100 text-blue-600 rounded-full absolute left-0 top-1/2 -translate-y-1/2">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            strokeWidth={2}
-                            stroke="currentColor"
-                            className="size-3"
-                          >
-                            <path
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              d="m4.5 12.75 6 6 9-13.5"
-                            />
-                          </svg>
-                        </i>
-                      </span>
-                      <span>
-                        Fermentum massa vivamus faucibus amet euismod.
-                      </span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
             </div>
           </div>
 
@@ -179,28 +85,6 @@ const WhoWeAre = () => {
               </div>
             </div>
           </div>
-        </div>
-
-        <div className="mt-9 flex flex-wrap mx-auto">
-          {items.map((item) => (
-            <div key={item.id} className="xl:w-4/12 lg:w-4/12 w-full px-6 mt-6">
-              <div className="flex flex-row">
-                <div>
-                  <div className="bg-blue-100 pointer-events-none mr-4 w-9 h-9 flex items-center justify-center rounded-lg">
-                    <span className="font-bold text-base text-indigo-500">
-                      {item.id}
-                    </span>
-                  </div>
-                </div>
-                <div>
-                  <h4 className="text-lg font-semibold leading-snug text-white mb-3">
-                    {item.title}
-                  </h4>
-                  <p className="mb-2 text-gray-500">{item.description}</p>
-                </div>
-              </div>
-            </div>
-          ))}
         </div>
       </div>
     </div>

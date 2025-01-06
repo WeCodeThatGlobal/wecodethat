@@ -4,8 +4,12 @@ import Item from "./Item";
 import HeroSection from "./HeroSection";
 import WhoWeAre from "./WhoWeAre";
 import WhatWeDo from "./WhatWeDo";
-import Testimonials from "./Testimonials";
+import HowWeWork from "./HowWeWork";
+import Statistacs from "./Statistacs";
 import ContactUs from "./ContactUs";
+import CTAv2 from "./CTAv2";
+import CTAv1 from "./CTAv1";
+import AppointmentBook from "./AppointmentBook";
 
 import FooterBlock from "../components/Footer";
 
@@ -14,17 +18,21 @@ const page = () => {
     <>
       <Navbar />
       <main>
-        <section className="max-w-7xl mx-auto w-full">
+        <section className="bg-black mx-auto w-full">
           <HeroSection />
         </section>
 
         <WhoWeAre />
 
+        <CTAv2 />
+
         <section className="max-w-7xl mx-auto">
           <WhatWeDo />
         </section>
 
-        <Testimonials />
+        <Statistacs />
+        <CTAv1 />
+        <HowWeWork />
 
         <section className="max-w-7xl mx-auto px-5 py-16">
           <div className="text-center max-w-2xl mx-auto">
@@ -32,7 +40,9 @@ const page = () => {
               Save your time and money by choosing our professional team.
             </h3>
           </div>
-          <div className="flex relative z-10">
+          <div className="relative z-10 grid grid-cols-3 max-w-4xl mx-auto">
+            <Item />
+            <Item />
             <Item />
             <Item />
             <Item />
@@ -45,7 +55,8 @@ const page = () => {
             </div>
           </div>
         </section>
-        <ContactUs />
+
+        <AppointmentBook />
       </main>
       <FooterBlock />
     </>
