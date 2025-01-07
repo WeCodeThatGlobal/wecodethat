@@ -1,10 +1,7 @@
 "use client";
-
-import Image from "next/image";
 import Link from "next/link";
 import { Navbar } from "./components/Navbar";
 import Features3 from "./components/Features3";
-import Features2 from "./components/Features2";
 import Footer from "./components/Footer";
 import Testimonials from "./components/Testimonials";
 import Statistacs from "./components/Statistacs";
@@ -12,10 +9,8 @@ import Works from "./components/Works";
 import CaseStudy from "./components/CaseStudy";
 import CTA from "./components/CTA";
 import WhatWeDo from "./components/WhatWeDo";
-import Service from "./components/Service";
 import Faq from "./components/Faq";
-import { useEffect, useRef } from "react";
-import lottie from "lottie-web";
+import { useRef } from "react";
 import Svg from "./components/Svg";
 
 export default function HeroSection() {
@@ -24,7 +19,7 @@ export default function HeroSection() {
   return (
     <>
       <Navbar />
-      <main className="w-full overflow-hidden">
+      <main className="w-full overflow-hidden scroll-smooth">
         <section className="relative py-24">
           <div className="mx-auto lg:max-w-7xl w-full px-5 sm:px-10 md:px-12 lg:px-5 flex flex-col lg:flex-row gap-8 lg:gap-10 xl:gap-12">
             <div className="mx-auto text-center lg:text-left flex flex-col max-w-3xl justify-center lg:justify-start lg:py-8 flex-1 lg:w-1/2 lg:max-w-none">
@@ -83,13 +78,16 @@ export default function HeroSection() {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Dignissimos, fugit! Laborum quo maxime at sapiente quasi
               </p>
-              <div className="mt-10 flex gap-4 justify-center lg:justify-start flex-wrap">
-                <Link
+              <div className="mt-10 flex items-center justify-start gap-x-6 w-full">
+                <a
                   href="#"
-                  className="relative px-6 py-3 before:absolute before:inset-0 before:rounded-lg before:transition active:before:bg-indigo-700 text-white hover:before:bg-indigo-800 before:bg-indigo-600 hover:before:scale-105"
+                  className="rounded-md bg-black text-white px-11 py-2.5 text-sm font-semibold hover:text-black hover:bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)] "
                 >
-                  <span className="relative">Contact Us</span>
-                </Link>
+                  Contact Us
+                  <span aria-hidden="true" className="ml-4">
+                    →
+                  </span>
+                </a>
               </div>
             </div>
             <div className="flex flex-1 lg:w-1/2 relative max-w-3xl mx-auto lg:max-w-none">
@@ -102,12 +100,16 @@ export default function HeroSection() {
       </main>
       <Features3 />
       <CTA />
-      <WhatWeDo />
-      <Testimonials />
+      <div id="service">
+        <WhatWeDo />
+      </div>
+
       <Statistacs />
+      {/* <Testimonials /> */}
       <Works />
-      <Service />
-      <CaseStudy />
+      {/* <div id="works">
+        <CaseStudy />
+      </div> */}
       <Faq />
       <Footer />
     </>
