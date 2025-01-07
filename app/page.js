@@ -1,10 +1,8 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { Navbar } from "./components/Navbar";
 import Features3 from "./components/Features3";
-import Features2 from "./components/Features2";
 import Footer from "./components/Footer";
 import Testimonials from "./components/Testimonials";
 import Statistacs from "./components/Statistacs";
@@ -12,10 +10,9 @@ import Works from "./components/Works";
 import CaseStudy from "./components/CaseStudy";
 import CTA from "./components/CTA";
 import WhatWeDo from "./components/WhatWeDo";
-import Service from "./components/Service";
+
 import Faq from "./components/Faq";
-import { useEffect, useRef } from "react";
-import lottie from "lottie-web";
+import { useRef } from "react";
 import Svg from "./components/Svg";
 
 export default function HeroSection() {
@@ -106,7 +103,6 @@ export default function HeroSection() {
       <Testimonials />
       <Statistacs />
       <Works />
-      <Service />
       <CaseStudy />
       <Faq />
       <Footer />
