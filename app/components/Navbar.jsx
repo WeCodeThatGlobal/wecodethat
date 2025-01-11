@@ -21,22 +21,16 @@ export const Navbar = () => {
           navIsOpened ? "lg:hidden" : "hidden lg:hidden"
         }`}
       />
-      <header className="sticky top-0 w-full flex items-center h-20 border-b border-b-gray-100 dark:border-b-gray-900 z-40 bg-white/80 dark:bg-gray-950/80 backdrop-filter backdrop-blur-xl">
-        <nav className="relative mx-auto lg:max-w-7xl w-full px-5 sm:px-10 md:px-12 lg:px-5 flex gap-x-5 justify-between items-center">
+      <header className="sticky top-0 w-full flex items-center h-20 border-b border-b-gray-100 dark:border-b-gray-900 z-40 bg-white dark:bg-gray-950/80 backdrop-filter backdrop-blur-xl">
+        <nav className="relative mx-auto lg:max-w-7xl w-full px-5 sm:px-10 md:px-12 lg:px-5 flex gap-x-5 items-center justify-between">
           <div className="flex items-center min-w-max">
-            <Link href="/" className="relative flex items-center gap-2.5">
-              <span aria-hidden={true} className="flex">
-                <span className="w-3 h-6 rounded-l-full flex bg-blue-400" />
-                <span className="w-3 h-6 rounded-r-full flex bg-indigo-600 mt-2" />
-              </span>
-              <span className="inline-flex text-lg font-bold text-indigo-950 dark:text-white">
-                WeCodeThat
-              </span>
+            <Link href="/" className="relative flex items-center -ml-5">
+              <img src="/logo/Full_logo_Bl.png" alt="logo" className="w-52" />
             </Link>
           </div>
           <div
             className={`
-          absolute top-full left-0 bg-white dark:bg-gray-950 lg:bg-transparent border-b border-gray-200 dark:border-gray-800 py-8 lg:py-0 px-5 sm:px-10 md:px-12 lg:px-0 lg:border-none w-full lg:top-0 lg:relative lg:w-max lg:flex lg:transition-none duration-300 ease-linear gap-x-6
+          absolute top-full left-0 bg-white dark:bg-gray-950 lg:bg-transparent border-b border-gray-200 dark:border-gray-800 py-8 lg:py-0 px-5 sm:px-10 md:px-12 lg:px-0 lg:border-none w-full lg:top-0 lg:relative lg:w-max-full lg:flex lg:transition-none duration-300 ease-linear gap-x-6
           ${
             navIsOpened
               ? "visible opacity-100 translate-y-0"
@@ -94,14 +88,17 @@ export const Navbar = () => {
                 </Link>
               </li> */}
             </ul>
-            {/* <div className="flex flex-col sm:flex-row sm:items-center gap-4  lg:min-w-max mt-10 lg:mt-0">
+            <div className="flex flex-col sm:flex-row sm:items-center gap-4 lg:min-w-max mt-10 lg:mt-0">
               <Link
                 href="#"
-                className="relative flex justify-center px-6 py-3 before:absolute before:inset-0 before:rounded-lg before:transition before:bg-gray-100 dark:before:bg-gray-900 text-indigo-600 dark:text-white hover:before:scale-105"
+                className="rounded-md bg-black text-white px-10 py-2.5 text-sm font-semibold border hover:text-black hover:bg-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 "
               >
-                <span className="relative">Book a call</span>
+                Book a Call
+                <span aria-hidden="true" className="ml-4">
+                  →
+                </span>
               </Link>
-            </div> */}
+            </div>
           </div>
           <div className="flex items-center lg:hidden">
             <button
