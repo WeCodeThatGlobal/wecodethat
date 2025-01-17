@@ -3,129 +3,79 @@ import { useState } from "react";
 import Link from "next/link";
 
 export const Navbar = () => {
-  const [navIsOpened, setNavIsOpened] = useState(false);
-  const closeNavbar = () => {
-    setNavIsOpened(false);
-  };
-  const toggleNavbar = () => {
-    setNavIsOpened((navIsOpened) => !navIsOpened);
-  };
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
   return (
-    <>
-      <div
-        aria-hidden={true}
-        onClick={() => {
-          closeNavbar();
-        }}
-        className={`fixed bg-gray-800/40 inset-0 z-30 ${
-          navIsOpened ? "lg:hidden" : "hidden lg:hidden"
-        }`}
-      />
-      <header className="sticky top-0 w-full flex items-center h-20 border-b border-b-gray-100 dark:border-b-gray-900 z-40 bg-white dark:bg-gray-950/80 backdrop-filter backdrop-blur-xl">
-        <nav className="relative mx-auto lg:max-w-7xl w-full px-5 sm:px-10 md:px-12 lg:px-5 flex gap-x-5 items-center justify-between">
-          <div className="flex items-center min-w-max">
-            <Link href="/" className="relative flex items-center -ml-5">
-              <img src="/logo/Full_logo_Bl.png" alt="logo" className="w-52" />
-            </Link>
-          </div>
-          <div
-            className={`
-          absolute top-full left-0 bg-white dark:bg-gray-950 lg:bg-transparent border-b border-gray-200 dark:border-gray-800 py-8 lg:py-0 px-5 sm:px-10 md:px-12 lg:px-0 lg:border-none w-full lg:top-0 lg:relative lg:w-max-full lg:flex lg:transition-none duration-300 ease-linear gap-x-6
-          ${
-            navIsOpened
-              ? "visible opacity-100 translate-y-0"
-              : "translate-y-10 opacity-0 invisible lg:visible lg:translate-y-0 lg:opacity-100"
-          }
-          `}
-          >
-            <ul className="flex flex-col lg:flex-row gap-6 lg:items-center text-gray-700 dark:text-gray-300 lg:w-full lg:justify-center">
-              <li>
-                <Link
-                  href="/"
-                  className="relative py-2.5 duration-300 ease-linear hover:text-indigo-600 after:absolute after:w-full after:left-0 after:bottom-0 after:h-px after:rounded-md after:origin-left after:ease-linear after:duration-300 after:scale-x-0 hover:after:scale-x-100 after:bg-indigo-600"
-                >
-                  Home
-                </Link>
-              </li>
-              {/* <li>
-                <Link
-                  href="#"
-                  className="relative py-2.5 duration-300 ease-linear hover:text-indigo-600 after:absolute after:w-full after:left-0 after:bottom-0 after:h-px after:rounded-md after:origin-left after:ease-linear after:duration-300 after:scale-x-0 hover:after:scale-x-100 after:bg-indigo-600"
-                >
-                  Portfolio
-                </Link>
-              </li> */}
-              <li>
-                <Link
-                  href="#service"
-                  className="relative py-2.5 duration-300 ease-linear hover:text-indigo-600 after:absolute after:w-full after:left-0 after:bottom-0 after:h-px after:rounded-md after:origin-left after:ease-linear after:duration-300 after:scale-x-0 hover:after:scale-x-100 after:bg-indigo-600"
-                >
-                  Services
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/about-us"
-                  className="relative py-2.5 duration-300 ease-linear hover:text-indigo-600 after:absolute after:w-full after:left-0 after:bottom-0 after:h-px after:rounded-md after:origin-left after:ease-linear after:duration-300 after:scale-x-0 hover:after:scale-x-100 after:bg-indigo-600"
-                >
-                  About Us
-                </Link>
-              </li>
-              {/* <li>
-                <Link
-                  href="#"
-                  className="relative py-2.5 duration-300 ease-linear hover:text-indigo-600 after:absolute after:w-full after:left-0 after:bottom-0 after:h-px after:rounded-md after:origin-left after:ease-linear after:duration-300 after:scale-x-0 hover:after:scale-x-100 after:bg-indigo-600"
-                >
-                  Contact
-                </Link>
-              </li> */}
-              {/* <li>
-                <Link
-                  href="#works"
-                  className="relative py-2.5 duration-300 ease-linear hover:text-indigo-600 after:absolute after:w-full after:left-0 after:bottom-0 after:h-px after:rounded-md after:origin-left after:ease-linear after:duration-300 after:scale-x-0 hover:after:scale-x-100 after:bg-indigo-600"
-                >
-                  Our Works
-                </Link>
-              </li> */}
-            </ul>
-            <div className="flex flex-col sm:flex-row sm:items-center gap-4 lg:min-w-max mt-10 lg:mt-0">
-              <Link
-                href="#"
-                className="rounded-md bg-black text-white px-10 py-2.5 text-sm font-semibold border hover:text-black hover:bg-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 "
-              >
-                Book a Call
-                <span aria-hidden="true" className="ml-4">
-                  →
-                </span>
-              </Link>
-            </div>
-          </div>
-          <div className="flex items-center lg:hidden">
-            <button
-              onClick={() => {
-                toggleNavbar();
-              }}
-              aria-label="toggle navbar"
-              className="outline-none border-l border-l-indigo-100 dark:border-l-gray-800 pl-3 relative py-3"
-            >
-              <span
-                aria-hidden={true}
-                className={`
-              flex h-0.5 w-6 rounded bg-gray-800 dark:bg-gray-300 transition duration-300
-              ${navIsOpened ? "rotate-45 translate-y-[.324rem]" : ""}
-            `}
-              ></span>
-              <span
-                aria-hidden={true}
-                className={`
-              mt-2 flex h-0.5 w-6 rounded bg-gray-800 dark:bg-gray-300 transition duration-300
-              ${navIsOpened ? "-rotate-45 -translate-y-[.324rem]" : ""}
-              `}
-              />
-            </button>
-          </div>
-        </nav>
-      </header>
-    </>
+  <nav className="bg-transparent top-0 z-50">
+  <div className="container mx-auto px-4 md:px-8 flex items-center justify-between h-16">
+    {/* Logo */}
+    <Link href="/" legacyBehavior>
+      <a className="text-xl font-bold text-blue-600">WeCodeThat</a>
+    </Link>
+
+    {/* Navbar Links */}
+    <div className="hidden md:flex font-bold items-center space-x-6">
+      <Link href="/" legacyBehavior>
+        <a className="text-gray-200 hover:text-blue-600 transition">Home</a>
+      </Link>
+      <Link href="/features" legacyBehavior>
+        <a className="text-gray-200 hover:text-blue-600 transition">Features</a>
+      </Link>
+      <Link href="/pricing" legacyBehavior>
+        <a className="text-gray-200 hover:text-blue-600 transition">Pricing</a>
+      </Link>
+      <Link href="/contact" legacyBehavior>
+        <a className="text-gray-200 hover:text-blue-600 transition">Contact</a>
+      </Link>
+    </div>
+
+    {/* Actions */}
+    <div className="hidden md:flex items-center space-x-4">
+      <Link href="/login" legacyBehavior>
+        <a className="text-gray-200 hover:text-blue-600 transition">Login</a>
+      </Link>
+      <Link href="/signup" legacyBehavior>
+        <a className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">Sign Up</a>
+      </Link>
+    </div>
+
+    {/* Mobile Menu Button */}
+    <button 
+      className="md:hidden text-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-600" 
+      onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+    >
+      <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16m-7 6h7"></path>
+      </svg>
+    </button>
+  </div>
+
+  {/* Mobile Menu */}
+  {isMobileMenuOpen && (
+    <div className="md:hidden bg-white border-t border-gray-200">
+      <div className="px-4 py-2 space-y-2">
+        <Link href="/" legacyBehavior>
+          <a className="block text-gray-200 hover:text-blue-600 transition">Home</a>
+        </Link>
+        <Link href="/features" legacyBehavior>
+          <a className="block text-gray-200 hover:text-blue-600 transition">Features</a>
+        </Link>
+        <Link href="/pricing" legacyBehavior>
+          <a className="block text-gray-200 hover:text-blue-600 transition">Pricing</a>
+        </Link>
+        <Link href="/contact" legacyBehavior>
+          <a className="block text-gray-200 hover:text-blue-600 transition">Contact</a>
+        </Link>
+        <hr className="border-gray-200" />
+        <Link href="/login" legacyBehavior>
+          <a className="block text-gray-200 hover:text-blue-600 transition">Login</a>
+        </Link>
+        <Link href="/signup" legacyBehavior>
+          <a className="block bg-blue-600 text-white text-center px-4 py-2 rounded hover:bg-blue-700 transition">Sign Up</a>
+        </Link>
+      </div>
+    </div>
+  )}
+</nav>
   );
 };
