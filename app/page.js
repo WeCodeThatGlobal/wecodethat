@@ -4,6 +4,8 @@ import Services from "./components/Services";
 import { Navbar } from "./components/Navbar";
 import { useRef } from "react";
 import WhoWeAre from "./components/WhoWeAre";
+import WhoWeAre2 from "./components/WhoWeAre2";
+import Aboutus from "./components/Aboutus";
 
 
 export default function HeroSection() {
@@ -14,6 +16,8 @@ export default function HeroSection() {
       <Hero />
       <Services />
       <WhoWeAre />
+      <WhoWeAre2 />
+      <Aboutus />
     </>
   );
 }

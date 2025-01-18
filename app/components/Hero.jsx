@@ -8,15 +8,15 @@ import { Navbar } from "./Navbar";
 const posts = [
   {
     image: "https://flywebwp.websitelayout.net/wp-content/uploads/2023/09/slide-01.jpg",
-    text: "Welcome to Slide 1",
+    text: "Creative Design",
   },
   {
     image: "https://flywebwp.websitelayout.net/wp-content/uploads/2023/09/slide-02.jpg",
-    text: "Explore Slide 2",
+    text: "We Code That",
   },
   {
     image: "https://flywebwp.websitelayout.net/wp-content/uploads/2023/09/slide-03.jpg",
-    text: "Discover Slide 3",
+    text: "Empower Elevate",
   },
 ];
 
@@ -64,7 +64,7 @@ export default function Hero() {
                 />
               </div>
               <div className="slide-text">
-                <h2>{post.text}</h2>
+                <h2 className="text-5xl md:text-7xl font-bold">{post.text}</h2>
               </div>
             </div>
           ))}

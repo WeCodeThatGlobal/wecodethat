@@ -7,7 +7,8 @@ import Image from "next/image";
 const Services = () => {
   return (
     <div className="bg-slate-100">
-      <div className="max-w-7xl mx-auto py-16">
+        <div className="container mx-auto px-4">
+        <div className="max-w-7xl mx-auto py-16">
         <Header title="Services That Help You Grow." subtitle="What We Do" />
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
@@ -95,6 +96,7 @@ const Services = () => {
 
         </div>
       </div>
+        </div>
     </div>
   );
 };

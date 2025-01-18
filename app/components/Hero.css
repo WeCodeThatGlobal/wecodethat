@@ -24,8 +24,9 @@
     align-items: center;
     justify-content: center;
     color: white;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
   }
+  
+
   
   .image-overlay {
     position: relative;
@@ -67,7 +68,7 @@
   }
   
   .embla__dot.is-active {
-    background-color: #fbbf24; /* Yellow color */
+    background-color: #2563eb; /* Yellow color */
   }
   
   /* Navbar.css */

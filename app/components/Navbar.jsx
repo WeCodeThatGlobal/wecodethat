@@ -55,23 +55,23 @@ export const Navbar = () => {
     <div className="md:hidden bg-white border-t border-gray-200">
       <div className="px-4 py-2 space-y-2">
         <Link href="/" legacyBehavior>
-          <a className="block text-gray-200 hover:text-blue-600 transition">Home</a>
+          <a className="block text-gray-800 hover:text-blue-600 transition">Home</a>
         </Link>
         <Link href="/features" legacyBehavior>
-          <a className="block text-gray-200 hover:text-blue-600 transition">Features</a>
+          <a className="block text-gray-800 hover:text-blue-600 transition">Features</a>
         </Link>
         <Link href="/pricing" legacyBehavior>
-          <a className="block text-gray-200 hover:text-blue-600 transition">Pricing</a>
+          <a className="block text-gray-800 hover:text-blue-600 transition">Pricing</a>
         </Link>
         <Link href="/contact" legacyBehavior>
-          <a className="block text-gray-200 hover:text-blue-600 transition">Contact</a>
+          <a className="block text-gray-800 hover:text-blue-600 transition">Contact</a>
         </Link>
-        <hr className="border-gray-200" />
+        <hr className="border-gray-800" />
         <Link href="/login" legacyBehavior>
-          <a className="block text-gray-200 hover:text-blue-600 transition">Login</a>
+          <a className="block text-gray-800 hover:text-blue-600 transition">Login</a>
         </Link>
         <Link href="/signup" legacyBehavior>
-          <a className="block bg-blue-600 text-white text-center px-4 py-2 rounded hover:bg-blue-700 transition">Sign Up</a>
+          <a className="block bg-blue-800 text-white text-center px-4 py-2 rounded hover:bg-blue-700 transition">Sign Up</a>
         </Link>
       </div>
     </div>
