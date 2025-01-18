@@ -28,7 +28,7 @@ const WhatWeDo = () => {
             <Header
               alignment="text-left"
               title="We offer the best design and development services!"
-              subtitle="What We Do"
+              subtitle="Who we are"
             />
             <div className="text-gray-600 mt-8 font-medium leading-loose">
               <p className="">

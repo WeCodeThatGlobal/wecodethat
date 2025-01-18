@@ -76,7 +76,7 @@ const WhatWeDo = () => {
           <Header
             alignment="text-center"
             title="Web solutions allows your business to increase productivity!"
-            subtitle="What We Do"
+            subtitle="What We are"
             titleCss="text-gray-100"
           />
         </div>
@@ -88,7 +88,7 @@ const WhatWeDo = () => {
                 <div className="rounded-xl px-8 py-2 bg-slate-100"> 
                     <FAQ/>
                 </div>
-                <div className="hidden md:block">
+                <div className="hidden md:block image-hover">
                     <img 
                     className="w-full h-auto rounded-xl"
                     src="https://flywebwp.websitelayout.net/wp-content/uploads/2023/09/extra-sec-img.jpg" />

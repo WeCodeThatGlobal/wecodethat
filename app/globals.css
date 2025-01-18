@@ -22,3 +22,43 @@ html {
   height: 3px;
   width: calc(100% - 30px);
 }
+
+
+.image-hover {
+  position: relative;
+  display: block;
+  overflow: hidden
+}
+
+.image-hover:before {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  display: block;
+  content: '';
+  width: 50%;
+  height: 100%;
+  background: -o-linear-gradient(left, transparent 0%, rgba(255,255,255,0.3) 100%);
+  background: -webkit-gradient(linear, left top, right top, from(transparent), to(rgba(255,255,255,0.3)));
+  background: linear-gradient(to right, transparent 0%, rgba(255,255,255,0.3) 100%);
+  -webkit-transform: skewX(-25deg);
+  -ms-transform: skewX(-25deg);
+  transform: skewX(-25deg)
+}
+
+.image-hover:hover:before {
+  -webkit-animation: shine 1s;
+  animation: shine 1s
+}
+
+@-webkit-keyframes shine {
+  100% {
+      left: 125%
+  }
+}
+
+@keyframes shine {
+  100% {
+      left: 125%
+  }
+}
