@@ -66,12 +66,12 @@ const page = () => {
     <div ref={box}>
       <Navbar />
       <PageHeader title="Contact Us" />
-      <div className="container mx-auto px-4 md:px-8 my-12">
-        <div className="max-w-7xl ">
-          <div className="bg-slate-100 px-8 py-6">
-            <div className="grid grid-cols-3 gap-4">
+      <div className="container mx-auto my-12">
+        <div className="max-w-">
+          <div className="bg-slate-100 rounded-md p-8">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
               <div className="col-span-2">
-                <h2 className="font-bold text-3xl mb-4">Write Us Something </h2>
+                <h2 className="font-bold text-2xl mb-4">Write Us Something </h2>
 
                 <div>
                   <iframe data-tally-src="https://tally.so/embed/wvE690?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="276" frameborder="0" marginheight="0" marginwidth="0" title="Contact form"></iframe>
@@ -86,9 +86,9 @@ const page = () => {
                     titleCss="text-white text-2xl"
                   />
 
-                  <div className="divide-y divide-gray-600 mt-8">
+                  <div className="divide-y divide-gray-600 mt-4">
                     <div className="flex items-center group py-4">
-                      <div className="bg-slate-600 rounded-md text-white p-4 group-hover:bg-blue-500">
+                      <div className="bg-slate-600 rounded-md text-white p-3 group-hover:bg-blue-500">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 24 24"
@@ -107,7 +107,7 @@ const page = () => {
                       </div>
                     </div>
                     <div className="flex items-center group py-4">
-                      <div className="bg-slate-600 rounded-md text-white p-4 group-hover:bg-blue-500">
+                      <div className="bg-slate-600 rounded-md text-white p-3 group-hover:bg-blue-500">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 24 24"
@@ -129,7 +129,7 @@ const page = () => {
                       </div>
                     </div>
                     <div className="flex items-center group py-4">
-                      <div className="bg-slate-600 rounded-md text-white p-4 group-hover:bg-blue-500">
+                      <div className="bg-slate-600 rounded-md text-white p-3 group-hover:bg-blue-500">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 24 24"
