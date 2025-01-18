@@ -9,7 +9,7 @@ const WhatWeDo = () => {
       <div className="max-w-7xl mx-auto py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-16 flex items-center flex-col">
           <div className="grid grid-cols-5 gap-8 mt-16">
-          <div className="col-span-2 image-hover flex items-center position-relative overflow-hidden">
+          <div className="col-span-2 image-hover flex self-center position-relative overflow-hidden">
             <img
               className="w-full h-auto rounded-md"
               src="https://flywebwp.websitelayout.net/wp-content/uploads/2023/09/why-choose-02.jpg"
