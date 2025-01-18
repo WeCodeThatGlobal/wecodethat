@@ -6,6 +6,8 @@ import { useRef } from "react";
 import WhoWeAre from "./components/WhoWeAre";
 import WhoWeAre2 from "./components/WhoWeAre2";
 import Aboutus from "./components/Aboutus";
+import Testimonials from "./components/Testimonials";
+import Blog from "./components/Blog";
 
 
 export default function HeroSection() {
@@ -18,6 +20,8 @@ export default function HeroSection() {
       <WhoWeAre />
       <WhoWeAre2 />
       <Aboutus />
+      <Testimonials />
+      <Blog />
     </>
   );
 }

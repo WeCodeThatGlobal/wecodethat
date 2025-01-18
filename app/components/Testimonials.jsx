@@ -17,6 +17,8 @@ const client = [
   },
 ];
 
+
+
 const Testimonials = () => {
   return (
     <section className="py-20 bg-[#060606]">
@@ -31,7 +33,7 @@ const Testimonials = () => {
             </h3>
             <img
               src="images/02-savee-sticker-e1701854191447.png"
-              className="w-32 absolute top-0 translate-x-48 -translate-y-7 -rotate-6"
+              className="w-32 absolute top-0 translate-x-2 md:translate-x-48 -translate-y-7 -rotate-6"
               alt="verified"
             />
           </div>
@@ -41,28 +43,52 @@ const Testimonials = () => {
           </p>
         </div>
         <div className="">
-          {client.map((item, index) => (
-            <div className="p-5 md:p-6 h-80 space-y-6 rounded-lg bg-[#202020]">
-              <p className="font-medium text-gray-400 dark:text-gray-300">
-                {item.review}
-              </p>
-              <div className="flex items-start gap-4">
+        <div className="mx-auto grid max-w-2xl grid-cols-1 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+          <div className="flex flex-col pb-10 sm:pb-16 lg:pb-0 lg:pr-8 xl:pr-20">
+            <figure className="mt-10 flex flex-auto flex-col justify-between">
+              <blockquote className="text-lg/8 text-white">
+                <p>
+                  “Amet amet eget scelerisque tellus sit neque faucibus non eleifend. Integer eu praesent at a. Ornare
+                  arcu gravida natoque erat et cursus tortor consequat at. Vulputate gravida sociis enim nullam
+                  ultricies habitant malesuada lorem ac. Tincidunt urna dui pellentesque sagittis.”
+                </p>
+              </blockquote>
+              <figcaption className="mt-10 flex items-center gap-x-6">
                 <img
-                  src={item.image}
-                  alt="Author avatar"
-                  className="w-12 h-12 rounded-full flex object-cover"
+                  alt=""
+                  src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                  className="size-14 rounded-full bg-gray-800"
                 />
-                <div className="space-y-1 flex-1">
-                  <h2 className="text-lg font-semibold leading-none text-gray-100 dark:text-gray-200">
-                    {item.name}
-                  </h2>
-                  <p className="text-gray-500 dark:text-gray-400 text-sm">
-                    {item.designation}
-                  </p>
+                <div className="text-base">
+                  <div className="font-semibold text-white">Judith Black</div>
+                  <div className="mt-1 text-gray-400">CEO of Tuple</div>
                 </div>
-              </div>
-            </div>
-          ))}
+              </figcaption>
+            </figure>
+          </div>
+          <div className="flex flex-col border-t border-white/10 pt-10 sm:pt-16 lg:border-l lg:border-t-0 lg:pl-8 lg:pt-0 xl:pl-20">
+            <figure className="mt-10 flex flex-auto flex-col justify-between">
+              <blockquote className="text-lg/8 text-white">
+                <p>
+                  “Excepteur veniam labore ullamco eiusmod. Pariatur consequat proident duis dolore nulla veniam
+                  reprehenderit nisi officia voluptate incididunt exercitation exercitation elit. Nostrud veniam sint
+                  dolor nisi ullamco.”
+                </p>
+              </blockquote>
+              <figcaption className="mt-10 flex items-center gap-x-6">
+                <img
+                  alt=""
+                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                  className="size-14 rounded-full bg-gray-800"
+                />
+                <div className="text-base">
+                  <div className="font-semibold text-white">Joseph Rodriguez</div>
+                  <div className="mt-1 text-gray-400">CEO of Reform</div>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
         </div>
       </div>
     </section>
