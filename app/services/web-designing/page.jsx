@@ -1,11 +1,15 @@
+"use client";
 import React from "react";
 import { Navbar } from "../../components/Navbar";
+import { useRef, useEffect, useState } from "react";
+import useScrollPosition from "../../hooks/useScrollPosition";
 
 import FooterBlock from "../../components/Footer";
 import PageHeader from "../../components/PageHeader";
 import ServicesCard from "../../components/ServiceCard";
 import CallUsCard from "../../components/CallUsCard";
 import Layout, { Sidebar, MainContent } from "../../components/Layout";
+import ScrollToTop from "../../components/ScrollToTop";
 
 const services = [
   {
@@ -29,9 +33,16 @@ const services = [
     link: "/",
   },
 ];
+
 const page = () => {
+  const scrollPosition = useScrollPosition();
+  const box = useRef(null);
+
+  const scrollPercentage =
+    (scrollPosition / (document.body.scrollHeight - window.innerHeight)) * 100;
+
   return (
-    <>
+    <div ref={box}>
       <Navbar />
       <PageHeader title="Web Designing" />
       <Layout>
@@ -103,7 +114,7 @@ const page = () => {
             </p>
           </div>
           <div className="my-8">
-            <h3 className="font-bold text-3xl">Our work benefits            </h3>
+            <h3 className="font-bold text-3xl">Our work benefits </h3>
             <p className="text-gray-600 font-medium mt-4 leading-relaxed">
               Web designing is a long established fact that a reader will be
               distracted by the readable content of a page when looking at its
@@ -113,7 +124,6 @@ const page = () => {
               English.
             </p>
 
-   
             <p className="text-gray-600 font-medium mt-4 leading-relaxed">
               There are many variations of passages of Lorem Ipsum available,
               but the majority have suffered alteration in some form, by
@@ -126,7 +136,8 @@ const page = () => {
         </MainContent>
       </Layout>
       <FooterBlock />
-    </>
+      <ScrollToTop percentage={scrollPercentage} />
+    </div>
   );
 };
 
