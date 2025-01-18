@@ -14,12 +14,20 @@ import useScrollPosition from "./hooks/useScrollPosition";
 
 
 export default function HeroSection() {
-  const box = useRef(null)
+  const box = useRef(null);
   const scrollPosition = useScrollPosition();
+  const [scrollPercentage, setScrollPercentage] = useState(0);
 
-  const scrollPercentage = (scrollPosition / (document.body.scrollHeight - window.innerHeight)) * 100;
+  useEffect(() => {
+    const updateScrollPercentage = () => {
+      const scrollHeight = document.body.scrollHeight - window.innerHeight;
+      const percentage = scrollHeight > 0 ? (scrollPosition / scrollHeight) * 100 : 0;
+      setScrollPercentage(percentage);
+    };
 
-  console.log("scrollPercentage : ", scrollPercentage)
+    updateScrollPercentage();
+  }, [scrollPosition]);
+
   return (
     <div ref={box}>
       <Hero showStickyNav={scrollPosition > 300} />
