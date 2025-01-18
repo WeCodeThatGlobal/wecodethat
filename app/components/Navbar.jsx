@@ -12,7 +12,7 @@ export const Navbar = ({ showStickyNav }) => {
     ${
       showStickyNav
         ? "fixed top-0 w-full bg-white shadow-lg text-gray-900"
-        : "normal text-gray-100"
+        : "normal text-gray-100 top-0 left-0 right-0 absolute mb-50"
     }`}
     >
       <div className="container mx-auto px-4 md:px-8 flex items-center justify-between h-16">
