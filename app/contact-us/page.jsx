@@ -74,7 +74,7 @@ const page = () => {
                 <h2 className="font-bold text-2xl mb-4">Write Us Something </h2>
 
                 <div>
-                  <iframe data-tally-src="https://tally.so/embed/wvE690?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="276" frameborder="0" marginheight="0" marginwidth="0" title="Contact form"></iframe>
+                <iframe data-tally-src="https://tally.so/embed/wz2B9a?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="100" frameborder="0" marginheight="0" marginwidth="0" title="null"></iframe>
                 </div>
               </div>
               <div className="col-span-1">
