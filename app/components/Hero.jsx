@@ -23,7 +23,7 @@ const posts = [
   },
 ];
 
-export default function Hero() {
+export default function Hero({showStickyNav}) {
   const [emblaRef, embla] = useEmblaCarousel({
     align: "start",
     loop: true,
@@ -51,7 +51,7 @@ export default function Hero() {
 
   return (
     <div className="hero-container">
-      <Navbar />
+      <Navbar showStickyNav={showStickyNav}/>
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container">
           {posts.map((post, idx) => (
