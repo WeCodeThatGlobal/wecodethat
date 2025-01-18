@@ -92,7 +92,7 @@ const footerBlocks = [
 
 const FooterBlock = () => {
   return (
-    <footer className="bg-gray-100 dark:bg-gray-900 text-gray-700 dark:text-gray-300">
+    <footer className="bg-gray-900 text-gray-300">
       <div className="max-w-7xl mx-auto px-5 sm:px-10 md:px-12 lg:px-5 grid grid-cols-2 lg:grid-cols-6 gap-12 lg:gap-16 py-20">
         <div className="space-y-6 col-span-2">
           <Link href="#">
@@ -111,23 +111,47 @@ const FooterBlock = () => {
         ))}
 
         <div className="space-y-6 col-span-2">
-          <h1 className="text-lg font-semibold text-gray-900 dark:text-gray-100">
-            News-letter
-          </h1>
-          <form className="w-full max-w-2xl flex flex-col sm:flex-row gap-3">
-            <input
-              type="email"
-              placeholder="johndoe@gmail.com"
-              className="px-5 py-2.5 rounded-md outline-none flex-1 bg-gray-200 dark:bg-gray-800"
-            />
-            <button className="outline-none w-full py-2.5 px-5 sm:w-max bg-blue-600 text-white rounded-md flex items-center justify-center">
-              Subscribe
-            </button>
-          </form>
+          <div>
+            <h3 className="text-xl font-bold">Contact Us</h3>
+            <div className="flex items-center mt-8">
+              <div>
+                <svg
+                  className="size-6 text-blue-600"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z"
+                  />
+                </svg>
+              </div>
+              <div className="ml-4">
+                <h4 className="text-base font-bold">Call us at</h4>
+                <h4>+91 987654321</h4>
+              </div>
+            </div>
+            <div className="flex items-center mt-4">
+              <div>
+              <svg class="size-6 text-blue-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" >
+  <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 9v.906a2.25 2.25 0 0 1-1.183 1.981l-6.478 3.488M2.25 9v.906a2.25 2.25 0 0 0 1.183 1.981l6.478 3.488m8.839 2.51-4.66-2.51m0 0-1.023-.55a2.25 2.25 0 0 0-2.134 0l-1.022.55m0 0-4.661 2.51m16.5 1.615a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V8.844a2.25 2.25 0 0 1 1.183-1.981l7.5-4.039a2.25 2.25 0 0 1 2.134 0l7.5 4.039a2.25 2.25 0 0 1 1.183 1.98V19.5Z" />
+</svg>
+
+              </div>
+              <div className="ml-4">
+                <h4 className="text-base font-bold">Mail us at</h4>
+                <h4>support@wecodethat.com</h4>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div className="max-w-7xl mx-auto px-5 sm:px-10 md:px-12 lg:px-5">
-        <div className="w-full flex flex-col md:flex-row gap-4 items-center sm:justify-between py-3 border-t border-gray-200 dark:border-t-gray-800 text-gray-700 dark:text-gray-300">
+        <div className="w-full flex flex-col md:flex-row gap-4 items-center sm:justify-between py-3 border-t border-t-gray-800 text-gray-300">
           <div className="flex text-center sm:text-left sm:min-w-max">
             <p> © 2023 WeCodeThat. All right reserved </p>
           </div>
