@@ -62,3 +62,40 @@ html {
       left: 125%
   }
 }
+
+
+.process-style:before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  right: -68px;
+  width: 120px;
+  height: 120px;
+  background: url("/images/arrow-top.svg");
+  background-repeat: no-repeat
+}
+
+.process-style.last:before {
+  content: none
+}
+
+.process-style.arrow-top:before {
+  content: "";
+  position: absolute;
+  top: 30px;
+  right: -68px;
+  width: 120px;
+  height: 120px;
+  background: url("/images/arrow-bottom.svg");
+  background-repeat: no-repeat
+}
+@media (max-width: 768px) {
+  .process-style:before {
+      background: none;
+      position: unset;
+  }
+  .process-style.arrow-top::before {
+    background: none;
+    position: unset;
+  }
+}

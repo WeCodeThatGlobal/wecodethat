@@ -5,6 +5,7 @@ import { Navbar } from "./components/Navbar";
 import { useRef, useEffect, useState } from "react";
 import WhoWeAre from "./components/WhoWeAre";
 import WhoWeAre2 from "./components/WhoWeAre2";
+import WorkProcess from "./components/WorkProcess";
 import Aboutus from "./components/Aboutus";
 import Testimonials from "./components/Testimonials";
 import Blog from "./components/Blog";
@@ -33,6 +34,7 @@ export default function HeroSection() {
       <Hero showStickyNav={scrollPosition > 300} />
       <Services />
       <WhoWeAre />
+      <WorkProcess />
       <WhoWeAre2 />
       <Aboutus />
       <Testimonials />
