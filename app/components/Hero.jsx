@@ -9,14 +9,17 @@ const posts = [
   {
     image: "https://flywebwp.websitelayout.net/wp-content/uploads/2023/09/slide-01.jpg",
     text: "Creative Design",
+    subtitle: "Strategic . Innovate . Excellence"
   },
   {
     image: "https://flywebwp.websitelayout.net/wp-content/uploads/2023/09/slide-02.jpg",
     text: "We Code That",
+    subtitle: "Strategic . Innovate . Excellence"
   },
   {
     image: "https://flywebwp.websitelayout.net/wp-content/uploads/2023/09/slide-03.jpg",
     text: "Empower Elevate",
+    subtitle: "Strategic . Innovate . Excellence"
   },
 ];
 
@@ -63,7 +66,8 @@ export default function Hero() {
                   blurDataURL={post.image}
                 />
               </div>
-              <div className="slide-text">
+              <div className="slide-text px-4">
+                <h4 className="text-base md:text-xl font-bold text-blue-600 mb-1">{post.subtitle}</h4>
                 <h2 className="text-5xl md:text-7xl font-bold">{post.text}</h2>
               </div>
             </div>
