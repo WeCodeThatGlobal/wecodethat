@@ -14,12 +14,12 @@ import ScrollToTop from "../../components/ScrollToTop";
 const services = [
   {
     title: "Web Designing",
-    active: true,
+    active: false,
     link: "./web-designing",
   },
   {
     title: "Web Development",
-    active: false,
+    active: true,
     link: "./web-development",
   },
   {
@@ -53,7 +53,7 @@ const page = () => {
   return (
     <div ref={box}>
       <Navbar />
-      <PageHeader title="Web Designing" />
+      <PageHeader title="Web Development" />
       <Layout>
         <Sidebar>
           <ServicesCard services={services} />

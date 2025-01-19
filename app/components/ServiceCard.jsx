@@ -7,6 +7,7 @@ const ServiceCard = ({ services }) => {
       <div className="flex flex-col space-y-4 mt-4">
         {services.map((service, index) => (
           <a
+            href={service.link}
             className={`p-4 transition cursor-pointer rounded-md font-medium inline-flex justify-between items-center
                 ${
                   service.active
