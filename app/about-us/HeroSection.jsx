@@ -45,7 +45,7 @@ const Header = () => {
         />
       </div>
       <div>
-        <div className="px-6 pb-32 pt-36 sm:pt-60 lg:px-8 lg:pt-32 text-center">
+        <div className="px-6 pb-32 pt-36 sm:pt-60 lg:px-8 lg:pt-32 text-center relative">
           <div className="mx-auto gap-x-14 lg:mx-0 lg:max-w-none ">
             <div className="w-full max-w-3xl mx-auto">
               <h1 className="text-5xl font-semibold tracking-tight text-white sm:text-7xl sm:leading-tight">
