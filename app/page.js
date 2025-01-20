@@ -13,7 +13,6 @@ import ScrollToTop from "./components/ScrollToTop";
 import Footer from "./components/Footer";
 import useScrollPosition from "./hooks/useScrollPosition";
 
-
 export default function HeroSection() {
   const box = useRef(null);
   const scrollPosition = useScrollPosition();
@@ -22,7 +21,8 @@ export default function HeroSection() {
   useEffect(() => {
     const updateScrollPercentage = () => {
       const scrollHeight = document.body.scrollHeight - window.innerHeight;
-      const percentage = scrollHeight > 0 ? (scrollPosition / scrollHeight) * 100 : 0;
+      const percentage =
+        scrollHeight > 0 ? (scrollPosition / scrollHeight) * 100 : 0;
       setScrollPercentage(percentage);
     };
 
@@ -40,7 +40,7 @@ export default function HeroSection() {
       <Testimonials />
       <Blog />
       <Footer />
-      <ScrollToTop  percentage={scrollPercentage}/>
+      <ScrollToTop percentage={scrollPercentage} />
     </div>
   );
 }

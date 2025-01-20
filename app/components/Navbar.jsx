@@ -33,13 +33,16 @@ export const Navbar = ({ showStickyNav }) => {
             <a className=" transition">Home</a>
           </Link>
           <Link href="/features" legacyBehavior>
-            <a className=" transition">Features</a>
+            <a className=" transition">Services</a>
           </Link>
-          <Link href="/pricing" legacyBehavior>
-            <a className=" transition">Pricing</a>
+          <Link href="/about-us" legacyBehavior>
+            <a className=" transition">About Us</a>
+          </Link>
+          <Link href="/contact-us" legacyBehavior>
+            <a className=" transition">Contact Us</a>
           </Link>
           <Link href="/contact" legacyBehavior>
-            <a className=" transition">Contact</a>
+            <a className=" transition">Blog</a>
           </Link>
         </div>
 

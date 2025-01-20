@@ -38,27 +38,12 @@ const footerBlocks = [
       {
         id: 1,
         text: "About",
-        link: "#",
+        link: "/about-us",
       },
       {
         id: 2,
-        text: "Career",
-        link: "#",
-      },
-      {
-        id: 3,
         text: "Contact",
-        link: "#",
-      },
-      {
-        id: 4,
-        text: "Services",
-        link: "#",
-      },
-      {
-        id: 5,
-        text: "Services",
-        link: "#",
+        link: "/contact-us",
       },
     ],
   },
@@ -74,17 +59,17 @@ const footerBlocks = [
       {
         id: 2,
         text: "Privacy",
-        link: "#",
+        link: "/privacy-policy",
       },
       {
         id: 3,
         text: "Terms",
-        link: "#",
+        link: "/terms-of-service",
       },
       {
         id: 4,
         text: "FAQ",
-        link: "#",
+        link: "/faq",
       },
     ],
   },
