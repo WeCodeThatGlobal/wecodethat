@@ -29,11 +29,12 @@ const WhatWeDo = () => {
                   </div>
                 </div>
                 <div className="text-center mt-4">
-                    <p className="text-gray-600">Starting</p>
-                    <h4 className="font-bold text-xl mt-2">Research Design</h4>
-                    <p className="text-gray-600 font-medium mt-2">Lorem Ipsum Dolor Sit Amet, Consectetur Notted Adipisicing.</p>
+                  <p className="text-gray-600">Starting</p>
+                  <h4 className="font-bold text-xl mt-2">Research</h4>
+                  <p className="text-gray-600 font-medium mt-2">
+                    Understand goals, analyse, and define objectives.
+                  </p>
                 </div>
-
               </div>
             </div>
             <div className="relative">
@@ -51,11 +52,12 @@ const WhatWeDo = () => {
                   </div>
                 </div>
                 <div className="text-center mt-4">
-                    <p className="text-gray-600">Planning</p>
-                    <h4 className="font-bold text-xl mt-2">Web Designing                    </h4>
-                    <p className="text-gray-600 font-medium mt-2">Lorem Ipsum Dolor Sit Amet, Consectetur Notted Adipisicing.</p>
+                  <p className="text-gray-600">Planning</p>
+                  <h4 className="font-bold text-xl mt-2">Design</h4>
+                  <p className="text-gray-600 font-medium mt-2">
+                    Craft user-friendly prototypes and refine interfaces.
+                  </p>
                 </div>
-
               </div>
             </div>
             <div className="relative">
@@ -73,12 +75,12 @@ const WhatWeDo = () => {
                   </div>
                 </div>
                 <div className="text-center mt-4">
-                    <p className="text-gray-600">Design</p>
-                    <h4 className="font-bold text-xl mt-2">Web Development
-                    </h4>
-                    <p className="text-gray-600 font-medium mt-2">Lorem Ipsum Dolor Sit Amet, Consectetur Notted Adipisicing.</p>
+                  <p className="text-gray-600">Design</p>
+                  <h4 className="font-bold text-xl mt-2">Development</h4>
+                  <p className="text-gray-600 font-medium mt-2">
+                    Build, test, and optimise with scalable solutions
+                  </p>
                 </div>
-
               </div>
             </div>
             <div className="relative">
@@ -96,11 +98,12 @@ const WhatWeDo = () => {
                   </div>
                 </div>
                 <div className="text-center mt-4">
-                    <p className="text-gray-600">Build</p>
-                    <h4 className="font-bold text-xl mt-2">Final Production                    </h4>
-                    <p className="text-gray-600 font-medium mt-2">Lorem Ipsum Dolor Sit Amet, Consectetur Notted Adipisicing.</p>
+                  <p className="text-gray-600">Build</p>
+                  <h4 className="font-bold text-xl mt-2">Final Production</h4>
+                  <p className="text-gray-600 font-medium mt-2">
+                    Deliver, deploy, and support seamless operations
+                  </p>
                 </div>
-
               </div>
             </div>
           </div>

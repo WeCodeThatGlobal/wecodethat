@@ -1,29 +1,29 @@
 "use client";
 import Image from "next/image";
-import useEmblaCarousel from 'embla-carousel-react';
+import useEmblaCarousel from "embla-carousel-react";
 import { useState, useCallback, useEffect } from "react";
 import "./Hero.css";
 import { Navbar } from "./Navbar";
 
 const posts = [
   {
-    image: "https://flywebwp.websitelayout.net/wp-content/uploads/2023/09/slide-01.jpg",
+    image: "/images/heroImg/slide-01.jpg",
     text: "Creative Design",
-    subtitle: "Strategic . Innovate . Excellence"
+    subtitle: "Strategic . Innovate . Excellence",
   },
   {
-    image: "https://flywebwp.websitelayout.net/wp-content/uploads/2023/09/slide-02.jpg",
+    image: "/images/heroImg/slide-02.jpg",
     text: "We Code That",
-    subtitle: "Strategic . Innovate . Excellence"
+    subtitle: "Strategic . Innovate . Excellence",
   },
   {
-    image: "https://flywebwp.websitelayout.net/wp-content/uploads/2023/09/slide-03.jpg",
+    image: "/images/heroImg/slide-03.jpg",
     text: "Empower Elevate",
-    subtitle: "Strategic . Innovate . Excellence"
+    subtitle: "Strategic . Innovate . Excellence",
   },
 ];
 
-export default function Hero({showStickyNav}) {
+export default function Hero({ showStickyNav }) {
   const [emblaRef, embla] = useEmblaCarousel({
     align: "start",
     loop: true,
@@ -51,7 +51,7 @@ export default function Hero({showStickyNav}) {
 
   return (
     <div className="hero-container">
-      <Navbar showStickyNav={showStickyNav}/>
+      <Navbar showStickyNav={showStickyNav} />
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container">
           {posts.map((post, idx) => (
@@ -67,7 +67,9 @@ export default function Hero({showStickyNav}) {
                 />
               </div>
               <div className="slide-text px-4">
-                <h4 className="text-base md:text-xl font-bold text-blue-600 mb-1">{post.subtitle}</h4>
+                <h4 className="text-base md:text-xl font-bold text-blue-600 mb-1">
+                  {post.subtitle}
+                </h4>
                 <h2 className="text-5xl md:text-7xl font-bold">{post.text}</h2>
               </div>
             </div>

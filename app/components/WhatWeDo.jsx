@@ -11,7 +11,7 @@ const WhatWeDo = () => {
         "https://flywebwp.websitelayout.net/wp-content/uploads/2023/09/13.png",
       title: (
         <>
-          Web <br /> Development
+          Custom <br /> Web Development
         </>
       ),
       description:
@@ -26,7 +26,7 @@ const WhatWeDo = () => {
         "https://flywebwp.websitelayout.net/wp-content/uploads/2023/09/14.png",
       title: (
         <>
-          Digital <br /> Marketing
+          E-Commerce <br /> Solutions
         </>
       ),
       description:
@@ -41,7 +41,7 @@ const WhatWeDo = () => {
         "https://flywebwp.websitelayout.net/wp-content/uploads/2023/09/15.png",
       title: (
         <>
-          Custom <br /> Web Application
+          Digital <br /> Marketing
         </>
       ),
       description:

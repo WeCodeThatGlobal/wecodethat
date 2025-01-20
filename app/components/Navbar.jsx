@@ -18,7 +18,13 @@ export const Navbar = ({ showStickyNav }) => {
       <div className="container mx-auto px-4 md:px-8 flex items-center justify-between h-16">
         {/* Logo */}
         <Link href="/" legacyBehavior>
-          <a className="text-xl font-bold text-blue-600">WeCodeThat</a>
+          <a className="w-64 text-xl font-bold text-blue-600">
+            {showStickyNav ? (
+              <img src="/logo/Full_Logo_Bl.png" alt="" />
+            ) : (
+              <img src="/logo/Full_Logo.png" alt="" />
+            )}
+          </a>
         </Link>
 
         {/* Navbar Links */}
