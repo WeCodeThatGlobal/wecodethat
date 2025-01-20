@@ -20,7 +20,7 @@ const WhatWeDo = () => {
                   <img
                     className="w-16"
                     decoding="async"
-                    src="https://flywebwp.websitelayout.net/wp-content/uploads/2023/09/icon-56.png"
+                    src="/workprocess/icon-01.png"
                     alt="Process Image"
                   ></img>
 
@@ -43,7 +43,7 @@ const WhatWeDo = () => {
                   <img
                     className="w-16"
                     decoding="async"
-                    src="https://flywebwp.websitelayout.net/wp-content/uploads/2023/09/icon-57.png"
+                    src="/workprocess/icon-02.png"
                     alt="Process Image"
                   ></img>
 
@@ -66,7 +66,7 @@ const WhatWeDo = () => {
                   <img
                     className="w-16"
                     decoding="async"
-                    src="https://flywebwp.websitelayout.net/wp-content/uploads/2023/09/icon-58.png"
+                    src="/workprocess/icon-03.png"
                     alt="Process Image"
                   ></img>
 
@@ -89,7 +89,7 @@ const WhatWeDo = () => {
                   <img
                     className="w-16"
                     decoding="async"
-                    src="https://flywebwp.websitelayout.net/wp-content/uploads/2023/09/icon-59.png"
+                    src="/workprocess/icon-04.png"
                     alt="Process Image"
                   ></img>
 

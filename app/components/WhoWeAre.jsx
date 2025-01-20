@@ -12,14 +12,14 @@ const WhatWeDo = () => {
             <div className="image-hover position-relative overflow-hidden">
               <img
                 className="w-full h-auto rounded-md"
-                src="https://flywebwp.websitelayout.net/wp-content/uploads/2023/09/about-05.jpg"
+                src="/whoweare/whoweare-01.jpg"
                 alt="Descriptive alt text"
               />
             </div>
             <div className="image-hover position-relative overflow-hidden">
               <img
                 className="w-full h-auto rounded-md mt-24"
-                src="https://flywebwp.websitelayout.net/wp-content/uploads/2023/09/about-04.jpg"
+                src="/whoweare/whoweare-02.jpg"
                 alt="Descriptive alt text"
               />
             </div>

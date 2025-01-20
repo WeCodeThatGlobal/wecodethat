@@ -15,8 +15,12 @@ module.exports = {
       padding: {
         "pr-calc": "calc(var(--bs-gutter-x) * 0.5)",
       },
+      backgroundImage: {
+        "service-01": "url('/services/service-01.jpg')",
+        "service-02": "url('/services/service-02.jpg')",
+        "service-03": "url('/services/service-03.jpg')",
+      },
     },
   },
-  plugins: [require("preline/plugin"),     require('@tailwindcss/typography'),
-  ],
+  plugins: [require("preline/plugin"), require("@tailwindcss/typography")],
 };

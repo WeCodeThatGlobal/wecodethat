@@ -7,17 +7,17 @@ import { Navbar } from "./Navbar";
 
 const posts = [
   {
-    image: "/images/heroImg/slide-01.jpg",
+    image: "/heroImg/slide-01.jpg",
     text: "Creative Design",
     subtitle: "Strategic . Innovate . Excellence",
   },
   {
-    image: "/images/heroImg/slide-02.jpg",
+    image: "/heroImg/slide-02.jpg",
     text: "We Code That",
     subtitle: "Strategic . Innovate . Excellence",
   },
   {
-    image: "/images/heroImg/slide-03.jpg",
+    image: "/heroImg/slide-03.jpg",
     text: "Empower Elevate",
     subtitle: "Strategic . Innovate . Excellence",
   },

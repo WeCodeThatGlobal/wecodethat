@@ -12,7 +12,7 @@ const Services = () => {
           <Header title="Services That Help You Grow." subtitle="What We Do" />
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
-            <div className="card group relative p-6 bg-white shadow rounded-md bg-[url('https://flywebwp.websitelayout.net/wp-content/uploads/2023/09/service-01.jpg')]">
+            <div className="card group relative p-6 bg-white shadow rounded-md bg-service-01">
               <span className="icon">
                 <Image
                   src="https://flywebwp.websitelayout.net/wp-content/uploads/2023/09/13.png"
@@ -36,7 +36,7 @@ const Services = () => {
                 </div>
               </div>
             </div>
-            <div className="card group relative p-6 bg-white shadow rounded-md bg-[url('https://flywebwp.websitelayout.net/wp-content/uploads/2023/09/service-01.jpg')]">
+            <div className="card group relative p-6 bg-white shadow rounded-md bg-service-02">
               <span className="icon">
                 <Image
                   src="https://flywebwp.websitelayout.net/wp-content/uploads/2023/09/13.png"
@@ -60,7 +60,7 @@ const Services = () => {
                 </div>
               </div>
             </div>
-            <div className="card group relative p-6 bg-white shadow rounded-md bg-[url('https://flywebwp.websitelayout.net/wp-content/uploads/2023/09/service-01.jpg')]">
+            <div className="card group relative p-6 bg-white shadow rounded-md bg-service-03">
               <span className="icon">
                 <Image
                   src="https://flywebwp.websitelayout.net/wp-content/uploads/2023/09/13.png"
