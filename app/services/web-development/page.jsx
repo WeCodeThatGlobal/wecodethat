@@ -10,22 +10,23 @@ import ServicesCard from "../../components/ServiceCard";
 import CallUsCard from "../../components/CallUsCard";
 import Layout, { Sidebar, MainContent } from "../../components/Layout";
 import ScrollToTop from "../../components/ScrollToTop";
+import CTAv1 from "../../about-us/CTAv1";
 
 const services = [
-  {
-    title: "Web Designing",
-    active: false,
-    link: "./web-designing",
-  },
   {
     title: "Web Development",
     active: true,
     link: "./web-development",
   },
   {
-    title: "Content Writing",
+    title: "Mobile App Development",
     active: false,
-    link: "./content-writing",
+    link: "./mobile-app-development",
+  },
+  {
+    title: "E-Commerce Solutions",
+    active: false,
+    link: "./e-commerce-solutions",
   },
   {
     title: "Digital Marketing",
@@ -138,6 +139,7 @@ const page = () => {
               </div>
             </div>
           </div>
+          <CTAv1 />
           <div className="my-8">
             <h3 className="font-bold text-3xl">
               Benefits of Working with WeCodeThat
@@ -150,7 +152,7 @@ const page = () => {
                 prioritizes your brand’s vision, the user’s journey, and the
                 overall performance of the site.
               </p>
-              <ul className="mt-8 font-bold text-sm space-y-4">
+              <ul className="mt-8 text-sm space-y-4">
                 <li className="flex items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -166,7 +168,8 @@ const page = () => {
                       d="m4.5 12.75 6 6 9-13.5"
                     />
                   </svg>
-                  Unique, tailored web solutions that set your business apart.
+                  <strong>Tailored web Solutions:</strong>&nbsp;Custom websites
+                  that reflect your brand and stand out.
                 </li>
                 <li className="flex items-center">
                   <svg
@@ -183,8 +186,8 @@ const page = () => {
                       d="m4.5 12.75 6 6 9-13.5"
                     />
                   </svg>
-                  Improved user experience with fast-loading and responsive
-                  designs.
+                  <strong>Improved User Experience:</strong>&nbsp;Fast-loading,
+                  responsive designs for seamless browsing.
                 </li>
                 <li className="flex items-center">
                   <svg
@@ -201,8 +204,8 @@ const page = () => {
                       d="m4.5 12.75 6 6 9-13.5"
                     />
                   </svg>
-                  Better visibility and higher rankings with SEO-optimized
-                  websites.
+                  <strong>SEO-Optimized Websites:</strong> Built for higher
+                  rankings and increased traffic.
                 </li>
                 <li className="flex items-center">
                   <svg
@@ -219,7 +222,8 @@ const page = () => {
                       d="m4.5 12.75 6 6 9-13.5"
                     />
                   </svg>
-                  Scalable and secure technology for long-term success.
+                  <strong>Scalable and Secure Technology:</strong> Scalable
+                  architecture with robust security.
                 </li>
                 <li className="flex items-center">
                   <svg
@@ -236,7 +240,8 @@ const page = () => {
                       d="m4.5 12.75 6 6 9-13.5"
                     />
                   </svg>
-                  Dedicated support team for maintenance and upgrades.
+                  <strong>Dedicated Support and Maintenance:</strong> Ongoing
+                  support and updates for smooth performance.
                 </li>
               </ul>
             </div>

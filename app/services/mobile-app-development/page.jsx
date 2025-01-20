@@ -20,7 +20,7 @@ const services = [
   },
   {
     title: "Mobile App Development",
-    active: false,
+    active: true,
     link: "./mobile-app-development",
   },
   {
@@ -30,7 +30,7 @@ const services = [
   },
   {
     title: "Digital Marketing",
-    active: true,
+    active: false,
     link: "./digital-marketing",
   },
 ];
@@ -54,7 +54,7 @@ const page = () => {
   return (
     <div ref={box}>
       <Navbar />
-      <PageHeader title="Digital Marketing" />
+      <PageHeader title="Mobile App Development" />
       <Layout>
         <Sidebar>
           <ServicesCard services={services} />
@@ -75,14 +75,15 @@ const page = () => {
           </div>
 
           <div className="my-8">
-            <h3 className="font-bold text-3xl">Digital Marketing</h3>
+            <h3 className="font-bold text-3xl">Mobile App Development</h3>
             <p className="text-gray-600 font-medium mt-4 leading-relaxed">
-              At WeCodeThat, we specialize in creating data-driven digital
-              marketing strategies that increase brand visibility, engage target
-              audiences, and drive measurable results. Whether you're aiming to
-              grow your brand's presence, enhance lead generation, or boost
-              sales, our team delivers custom digital marketing solutions
-              designed to achieve your specific business objectives.
+              At WeCodeThat, we offer custom mobile app development services
+              designed to empower your business and engage your audience.
+              Whether you need an iOS app, Android app, or a cross-platform
+              solution, our expert developers deliver high-quality mobile
+              applications tailored to your business goals. With a focus on user
+              experience, scalability, and security, we create apps that stand
+              out in today’s competitive market.
             </p>
 
             <div className="grid grid-cols-2 my-8 gap-4">
@@ -92,10 +93,12 @@ const page = () => {
                   src="https://flywebwp.websitelayout.net/wp-content/uploads/2023/09/service-details-2.jpg"
                 />
                 <div className="p-4">
-                  <h4 className="font-bold text-xl">SEO Optimization</h4>
+                  <h4 className="font-bold text-xl">
+                    Custom Mobile App Design
+                  </h4>
                   <p className="mt-2 text-gray-800">
-                    Improve your search engine rankings and attract more organic
-                    traffic with effective SEO strategies.
+                    Stand out with visually stunning, user-centric designs
+                    tailored to your business needs.
                   </p>
                 </div>
               </div>
@@ -105,11 +108,10 @@ const page = () => {
                   src="https://flywebwp.websitelayout.net/wp-content/uploads/2023/09/service-details-3.jpg"
                 />
                 <div className="p-4">
-                  <h4 className="font-bold text-xl">PPC Advertising</h4>
+                  <h4 className="font-bold text-xl">High-Performance Apps</h4>
                   <p className="mt-2 text-gray-800">
-                    Drive immediate traffic and generate leads with targeted
-                    pay-per-click advertising campaigns across various
-                    platforms.
+                    Enjoy fast, reliable, and smooth performance for enhanced
+                    user engagement.
                   </p>
                 </div>
               </div>
@@ -119,10 +121,12 @@ const page = () => {
                   src="https://flywebwp.websitelayout.net/wp-content/uploads/2023/09/service-details-3.jpg"
                 />
                 <div className="p-4">
-                  <h4 className="font-bold text-xl">Social Media Marketing</h4>
+                  <h4 className="font-bold text-xl">
+                    Cross-Platform App Development
+                  </h4>
                   <p className="mt-2 text-gray-800">
-                    Engage with your audience, build a community, and grow brand
-                    awareness on social media.
+                    Maximize your reach with apps optimized for both iOS and
+                    Android platforms.
                   </p>
                 </div>
               </div>
@@ -132,10 +136,9 @@ const page = () => {
                   src="https://flywebwp.websitelayout.net/wp-content/uploads/2023/09/service-details-3.jpg"
                 />
                 <div className="p-4">
-                  <h4 className="font-bold text-xl">Content Marketing</h4>
+                  <h4 className="font-bold text-xl">Scalable Solutions</h4>
                   <p className="mt-2 text-gray-800">
-                    Create valuable and relevant content to attract, inform, and
-                    convert your audience.
+                    Ensure your app grows with your business demands.
                   </p>
                 </div>
               </div>
@@ -148,12 +151,11 @@ const page = () => {
             </h3>
             <div className="text-gray-600 mt-8 font-medium leading-loose">
               <p>
-                At WeCodeThat, we approach digital marketing with a focus on
-                measurable growth and long-term success. Partnering with us
-                means you're choosing a comprehensive approach that integrates
-                strategy, creativity, and analytics to drive results.
+                Partnering with WeCodeThat means collaborating with a team
+                dedicated to delivering top-notch mobile app solutions that
+                align with your business vision.
               </p>
-              <ul className="mt-8 space-y-4">
+              <ul className="mt-8 text-sm space-y-4">
                 <li className="flex items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -169,8 +171,8 @@ const page = () => {
                       d="m4.5 12.75 6 6 9-13.5"
                     />
                   </svg>
-                  <strong>Tailored digital marketing solutions:</strong>&nbsp;
-                  Designed to meet your unique business goals.
+                  <strong>Tailored Solutions:</strong>&nbsp;Unique apps designed
+                  to meet your business needs and goals.
                 </li>
                 <li className="flex items-center">
                   <svg
@@ -187,8 +189,8 @@ const page = () => {
                       d="m4.5 12.75 6 6 9-13.5"
                     />
                   </svg>
-                  <strong>Improved online presence:</strong>&nbsp; With SEO,
-                  social media, and content marketing strategies.
+                  <strong>Enhanced User Experience:</strong>&nbsp;Intuitive,
+                  fast-loading, and responsive designs that engage users.
                 </li>
                 <li className="flex items-center">
                   <svg
@@ -205,8 +207,8 @@ const page = () => {
                       d="m4.5 12.75 6 6 9-13.5"
                     />
                   </svg>
-                  <strong>Targeted advertising:</strong>&nbsp; To attract the
-                  right audience and maximize ROI.
+                  <strong>Higher Visibility:</strong> Apps optimized for App
+                  Store Optimization (ASO) and user retention.
                 </li>
                 <li className="flex items-center">
                   <svg
@@ -223,8 +225,8 @@ const page = () => {
                       d="m4.5 12.75 6 6 9-13.5"
                     />
                   </svg>
-                  <strong>Data-driven insights:</strong>&nbsp; For better
-                  decision-making and strategy optimization.
+                  <strong>Scalable Technology:</strong> Future-proof mobile apps
+                  that evolve with your business.
                 </li>
                 <li className="flex items-center">
                   <svg
@@ -241,17 +243,17 @@ const page = () => {
                       d="m4.5 12.75 6 6 9-13.5"
                     />
                   </svg>
-                  <strong>Ongoing support and optimization:</strong>&nbsp; To
-                  ensure your digital marketing efforts continue to deliver
-                  success.
+                  <strong>Reliable Support:</strong> Ongoing maintenance,
+                  updates, and technical support to keep your app running
+                  smoothly.
                 </li>
               </ul>
             </div>
 
             <p className="text-gray-600 font-medium mt-8 leading-relaxed">
-              By choosing WeCodeThat, you’re partnering with a team dedicated to
-              elevating your brand in the digital landscape and helping you
-              thrive in an ever-evolving online market.
+              By choosing WeCodeThat, you're choosing a partner who understands
+              that great web design is more than just aesthetics it’s about
+              creating a user experience that resonates and drives results.
             </p>
           </div>
         </MainContent>

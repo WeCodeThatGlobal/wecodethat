@@ -10,11 +10,12 @@ import ServicesCard from "../../components/ServiceCard";
 import CallUsCard from "../../components/CallUsCard";
 import Layout, { Sidebar, MainContent } from "../../components/Layout";
 import ScrollToTop from "../../components/ScrollToTop";
+import CTAv1 from "../../about-us/CTAv1";
 
 const services = [
   {
     title: "Web Designing",
-    active: true,
+    active: false,
     link: "./web-designing",
   },
   {
@@ -23,9 +24,9 @@ const services = [
     link: "./web-development",
   },
   {
-    title: "Content Writing",
-    active: false,
-    link: "./content-writing",
+    title: "E-Commerce Solutions",
+    active: true,
+    link: "./e-commerce-solutions",
   },
   {
     title: "Digital Marketing",
@@ -53,7 +54,7 @@ const page = () => {
   return (
     <div ref={box}>
       <Navbar />
-      <PageHeader title="Web Designing" />
+      <PageHeader title="E-Commerce Solutions" />
       <Layout>
         <Sidebar>
           <ServicesCard services={services} />
@@ -74,15 +75,14 @@ const page = () => {
           </div>
 
           <div className="my-8">
-            <h3 className="font-bold text-3xl">Web Designing </h3>
+            <h3 className="font-bold text-3xl">E-Commerce Solutions</h3>
             <p className="text-gray-600 font-medium mt-4 leading-relaxed">
-              At WeCodeThat, we specialize in creating visually stunning,
-              innovative, and brand-centric website designs that speak directly
-              to your audience. Our designs go beyond aesthetics—crafting
-              intuitive experiences that engage users, build trust, and
-              transform visitors into loyal customers. Whether you’re launching
-              a new site or refreshing an existing one, we deliver designs that
-              elevate your brand and help your business grow.
+              At WeCodeThat, we specialize in building robust, scalable, and
+              user-friendly e-commerce platforms that drive sales and enhance
+              customer experiences. Whether you're launching your first online
+              store or looking to optimize your existing one, our team provides
+              end-to-end e-commerce solutions tailored to meet your business
+              goals.
             </p>
 
             <div className="grid grid-cols-2 my-8 gap-4">
@@ -93,11 +93,11 @@ const page = () => {
                 />
                 <div className="p-4">
                   <h4 className="font-bold text-xl">
-                    Creative and Unique Designs
+                    Custom E-Commerce Design
                   </h4>
                   <p className="mt-2 text-gray-800">
-                    We design websites that reflect your brand’s personality and
-                    make a lasting impression.
+                    Create a visually appealing and user-friendly online store
+                    that aligns with your brand and attracts customers.
                   </p>
                 </div>
               </div>
@@ -107,10 +107,12 @@ const page = () => {
                   src="https://flywebwp.websitelayout.net/wp-content/uploads/2023/09/service-details-3.jpg"
                 />
                 <div className="p-4">
-                  <h4 className="font-bold text-xl">User-Centered Design</h4>
+                  <h4 className="font-bold text-xl">
+                    Seamless Shopping Experience
+                  </h4>
                   <p className="mt-2 text-gray-800">
-                    Our intuitive layouts enhance user experience and drive
-                    engagement.
+                    Deliver a smooth, fast, and secure shopping experience with
+                    intuitive navigation and streamlined checkout processes.
                   </p>
                 </div>
               </div>
@@ -120,10 +122,10 @@ const page = () => {
                   src="https://flywebwp.websitelayout.net/wp-content/uploads/2023/09/service-details-3.jpg"
                 />
                 <div className="p-4">
-                  <h4 className="font-bold text-xl">Mobile First</h4>
+                  <h4 className="font-bold text-xl">Mobile Friendly Design</h4>
                   <p className="mt-2 text-gray-800">
-                    Responsive designs that ensure seamless experiences across
-                    all devices.
+                    Ensure your E-commerce store performs flawlessly across all
+                    devices, from desktops to smartphones.
                   </p>
                 </div>
               </div>
@@ -133,28 +135,32 @@ const page = () => {
                   src="https://flywebwp.websitelayout.net/wp-content/uploads/2023/09/service-details-3.jpg"
                 />
                 <div className="p-4">
-                  <h4 className="font-bold text-xl">SEO-Optimized</h4>
+                  <h4 className="font-bold text-xl">
+                    Payment Gateway Integration
+                  </h4>
                   <p className="mt-2 text-gray-800">
-                    Designs that help improve search engine rankings and attract
-                    organic traffic.
+                    Enable secure, flexible payment options for your customers
+                    with integrated payment gateways that support various
+                    methods.
                   </p>
                 </div>
               </div>
             </div>
           </div>
+          <CTAv1 />
           <div className="my-8">
             <h3 className="font-bold text-3xl">
               Benefits of Working with WeCodeThat
             </h3>
             <div className="text-gray-600 mt-8 font-medium leading-loose">
               <p>
-                At WeCodeThat, we see web design as an opportunity to create a
-                dynamic and functional experience for your audience. Partnering
-                with us means you're choosing a design-focused approach that
-                prioritizes your brand’s vision, the user’s journey, and the
-                overall performance of the site.
+                At WeCodeThat, we approach e-commerce development with a focus
+                on driving growth and delivering an exceptional customer
+                journey. Partnering with us means you're choosing a solution
+                that is as scalable as your business, with a focus on
+                functionality, security, and performance.
               </p>
-              <ul className="mt-8 font-bold text-sm space-y-4">
+              <ul className="mt-8 text-sm space-y-4">
                 <li className="flex items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -170,8 +176,8 @@ const page = () => {
                       d="m4.5 12.75 6 6 9-13.5"
                     />
                   </svg>
-                  Unique, creative designs that reflect your brand and engage
-                  your audience.
+                  <strong>Tailored e-commerce solutions:</strong>&nbsp;Designed
+                  to meet your specific business needs.
                 </li>
                 <li className="flex items-center">
                   <svg
@@ -188,7 +194,8 @@ const page = () => {
                       d="m4.5 12.75 6 6 9-13.5"
                     />
                   </svg>
-                  User-focused layouts that enhance interaction and conversion.
+                  <strong>Optimized user experience:</strong>&nbsp;For higher
+                  conversion rates and sales.
                 </li>
                 <li className="flex items-center">
                   <svg
@@ -205,7 +212,8 @@ const page = () => {
                       d="m4.5 12.75 6 6 9-13.5"
                     />
                   </svg>
-                  SEO-optimized designs that improve search engine rankings.
+                  <strong>Secure payment processing:</strong> With data
+                  protection for peace of mind.
                 </li>
                 <li className="flex items-center">
                   <svg
@@ -222,8 +230,8 @@ const page = () => {
                       d="m4.5 12.75 6 6 9-13.5"
                     />
                   </svg>
-                  Responsive, mobile-first designs for seamless user
-                  experiences.
+                  <strong>Scalable solutions:</strong> That grow with your
+                  business.
                 </li>
                 <li className="flex items-center">
                   <svg
@@ -240,33 +248,16 @@ const page = () => {
                       d="m4.5 12.75 6 6 9-13.5"
                     />
                   </svg>
-                  Scalable designs that grow with your business needs.
-                </li>
-                <li className="flex items-center">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke-width="3"
-                    stroke="currentColor"
-                    className="size-5 text-blue-600 mr-1.5"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="m4.5 12.75 6 6 9-13.5"
-                    />
-                  </svg>
-                  Ongoing support to ensure your design remains current and
-                  effective.
+                  <strong>Ongoing support and maintenance:</strong> To keep your
+                  e-commerce platform running smoothly.
                 </li>
               </ul>
             </div>
 
             <p className="text-gray-600 font-medium mt-8 leading-relaxed">
-              By choosing WeCodeThat, you're choosing a partner who understands
-              that great web design is more than just aesthetics it’s about
-              creating a user experience that resonates and drives results.
+              By choosing WeCodeThat, you’re partnering with a team dedicated to
+              taking your online store to the next level and helping you succeed
+              in the competitive e-commerce landscape.
             </p>
           </div>
         </MainContent>

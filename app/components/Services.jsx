@@ -3,6 +3,7 @@ import React from "react";
 import Header from "./Header";
 import "./Services.css";
 import Image from "next/image";
+import Link from "next/link";
 
 const Services = () => {
   return (
@@ -33,6 +34,9 @@ const Services = () => {
                     Crafting high-performing, user-friendly websites that scale
                     with your business.
                   </p>
+                  <Link href="/" className="mt-2">
+                    Learn More
+                  </Link>
                 </div>
               </div>
             </div>
