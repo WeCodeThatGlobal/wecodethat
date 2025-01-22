@@ -114,8 +114,11 @@ const page = () => {
               <p className="italic">
                 This summary provides key points from our Privacy Notice, but
                 you can find out more details about any of these topics by
-                clicking the link following each key point or by using our table
-                of contents below to find the section you are looking for.
+                clicking the link following each key point or by using our{" "}
+                <a href="tableofcontent" className="text-blue-600">
+                  table of contents
+                </a>{" "}
+                below to find the section you are looking for.
               </p>
 
               <ul className="space-y-4 ml-10">
@@ -125,7 +128,7 @@ const page = () => {
                   personal information depending on how you interact with us and
                   the Services, the choices you make, and the products and
                   features you use.{" "}
-                  <a href="#learn-more">
+                  <a href="#information-sharing" className="text-blue-600">
                     Learn more about personal information you disclose to us.
                   </a>
                 </li>
@@ -152,7 +155,7 @@ const page = () => {
                   information for other purposes with your consent. We process
                   your information only when we have a valid legal reason to do
                   so.{" "}
-                  <a href="#learn-more">
+                  <a href="#information-processing" className="text-blue-600">
                     Learn more about how we process your information.
                   </a>
                 </li>
@@ -163,7 +166,7 @@ const page = () => {
                   </strong>{" "}
                   We may share information in specific situations and with
                   specific third parties.{" "}
-                  <a href="#learn-more">
+                  <a href="#information-sharing" className="text-blue-600">
                     Learn more about when and with whom we share your personal
                     information.
                   </a>
@@ -178,7 +181,7 @@ const page = () => {
                   other unauthorised third parties will not be able to defeat
                   our security and improperly collect, access, steal, or modify
                   your information.{" "}
-                  <a href="#learn-more">
+                  <a href="#information-safety" className="text-blue-600">
                     Learn more about how we keep your information safe.
                   </a>
                 </li>
@@ -187,16 +190,21 @@ const page = () => {
                   are located geographically, the applicable privacy law may
                   mean you have certain rights regarding your personal
                   information.{" "}
-                  <a href="#learn-more">
+                  <a href="#privacy-rights" className="text-blue-600">
                     Learn more about your privacy rights.
                   </a>
                 </li>
                 <li>
                   <strong>How do you exercise your rights?</strong> The easiest
-                  way to exercise your rights is by submitting a data subject
-                  access request, or by contacting us. We will consider and act
-                  upon any request in accordance with applicable data protection
-                  laws.
+                  way to exercise your rights is by submitting a{" "}
+                  <a
+                    className="text-blue-600"
+                    href="https://app.termly.io/notify/ddc1ccee-5f84-4439-8aef-0e87a30aacaf"
+                  >
+                    data subject access request
+                  </a>
+                  , or by contacting us. We will consider and act upon any
+                  request in accordance with applicable data protection laws.
                 </li>
               </ul>
 
@@ -209,7 +217,10 @@ const page = () => {
               </p>
             </section>
 
-            <div className="text-gray-600 mt-8 font-medium leading-relaxed space-y-6">
+            <div
+              className="text-gray-600 mt-8 font-medium leading-relaxed space-y-6"
+              id="tableofcontent"
+            >
               <h3 className="text-2xl font-semibold text-black">
                 Table of Contents
               </h3>
@@ -453,8 +464,19 @@ const page = () => {
               <h4 className="text-xl font-semibold text-black">Google API</h4>
               <p>
                 Our use of information received from Google APIs will adhere to
-                Google API Services User Data Policy, including the Limited Use
-                requirements.
+                <a
+                  href="https://developers.google.com/terms/api-services-user-data-policy"
+                  className="text-blue-600"
+                >
+                  Google API Services User Data Policy
+                </a>
+                , including the{" "}
+                <a
+                  className="text-blue-600"
+                  href="https://developers.google.com/terms/api-services-user-data-policy#limited-use"
+                >
+                  Limited Use requirements.
+                </a>
               </p>
             </div>
 
@@ -518,8 +540,11 @@ const page = () => {
                   We may process the personal information you send to us for our
                   marketing purposes, if this is in accordance with your
                   marketing preferences. You can opt out of our marketing emails
-                  at any time. For more information, see 'WHAT ARE YOUR PRIVACY
-                  RIGHTS?' below.
+                  at any time. For more information, see{" "}
+                  <a href="#privacy-rights" className="text-blue-600">
+                    'WHAT ARE YOUR PRIVACY RIGHTS?'
+                  </a>{" "}
+                  below.
                 </li>
                 <li>
                   <strong>To deliver targeted advertising to you:</strong> We
@@ -591,8 +616,10 @@ const page = () => {
                   <strong>Consent:</strong> We may process your information if
                   you have given us permission (i.e., consent) to use your
                   personal information for a specific purpose. You can withdraw
-                  your consent at any time. Learn more about withdrawing your
-                  consent.
+                  your consent at any time. Learn more about &nbsp;
+                  <a href="#withdrawyourcontent" className="text-blue-600">
+                    withdraw your consent
+                  </a>
                 </li>
                 <li>
                   <strong>Performance of a Contract:</strong> We may process
@@ -657,7 +684,11 @@ const page = () => {
                 permission (i.e., express consent) to use your personal
                 information for a specific purpose, or in situations where your
                 permission can be inferred (i.e., implied consent). You can
-                withdraw your consent at any time.
+                &nbsp;
+                <a href="#withdrawyourcontent" className="text-blue-600">
+                  withdraw your consent
+                </a>{" "}
+                at any time.
               </p>
 
               <p>
@@ -795,7 +826,7 @@ const page = () => {
                 defined under the applicable laws) under applicable US state
                 laws, you can opt out of these online tracking technologies by
                 submitting a request as described below under section{" "}
-                <a href="#us-privacy-rights" className="text-blue-500">
+                <a href="#us-residents-privacy" className="text-blue-500">
                   'DO UNITED STATES RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?'
                 </a>
                 .
@@ -804,7 +835,7 @@ const page = () => {
               <p>
                 Specific information about how we use such technologies and how
                 you can refuse certain cookies is set out in our{" "}
-                <a href="#cookie-notice" className="text-blue-500">
+                <a href="#cookies-tracking" className="text-blue-500">
                   Cookie Notice
                 </a>
                 .
@@ -978,8 +1009,11 @@ const page = () => {
                 circumstances, you may also have the right to object to the
                 processing of your personal information. You can make such a
                 request by contacting us by using the contact details provided
-                in the section 'HOW CAN YOU CONTACT US ABOUT THIS NOTICE?'
-                below.
+                in the section '&nbsp;
+                <a href="#contact-us" className="text-blue-600">
+                  HOW CAN YOU CONTACT US ABOUT THIS NOTICE?
+                </a>{" "}
+                ' below.
               </p>
 
               <p>
@@ -990,19 +1024,34 @@ const page = () => {
               <p>
                 If you are located in the EEA or UK and you believe we are
                 unlawfully processing your personal information, you also have
-                the right to complain to your Member State data protection
-                authority or UK data protection authority.
+                the right to complain to your{" "}
+                <a
+                  className="text-blue-600"
+                  href="https://ec.europa.eu/justice/data-protection/bodies/authorities/index_en.htm"
+                >
+                  Member State data protection authority
+                </a>{" "}
+                or{" "}
+                <a
+                  href="https://ico.org.uk/make-a-complaint/data-protection-complaints/data-protection-complaints/"
+                  className="text-blue-600"
+                >
+                  UK data protection authority.
+                </a>
               </p>
 
               <p>
                 If you are located in Switzerland, you may contact the{" "}
-                <a href="https://www.edoeb.admin.ch/edoeb/en/home.html">
+                <a
+                  href="https://www.edoeb.admin.ch/edoeb/en/home.html"
+                  className="text-blue-600"
+                >
                   {" "}
                   Federal Data Protection and Information Commissioner.
                 </a>{" "}
               </p>
 
-              <p>
+              <p id="withdrawyourcontent">
                 <strong>Withdrawing your consent:</strong> If we are relying on
                 your consent to process your personal information, which may be
                 express and/or implied consent depending on the applicable law,
