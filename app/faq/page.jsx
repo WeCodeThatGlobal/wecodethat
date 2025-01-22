@@ -105,8 +105,8 @@ const page = () => {
             <div className="rounded-xl px-8 py-2 bg-slate-100">
               <Header
                 alignment="text-left"
-                title="Your Trusted Partners in Digital Innovation"
-                subtitle="Who we are"
+                title="FAQs for Custom Web Development"
+                subtitle="FAQ"
               />
               <FAQ />
             </div>

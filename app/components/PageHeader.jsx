@@ -10,7 +10,7 @@ export default function PageHeader({ title }) {
     >
       <div className="bg-gray-900 absolute inset-0 opacity-80 transition duration-300 ease-in-out"></div>
       <div className="container mx-auto px-4">
-        <div className="max-w-7xl relative">
+        <div className="max-w-7xl mx-auto relative">
           <h2 className="font-bold text-6xl text-slate-50">{title} </h2>
           <ul className="flex space-x-3 items-center font-bold mt-4">
             <li className="text-gray-100">
