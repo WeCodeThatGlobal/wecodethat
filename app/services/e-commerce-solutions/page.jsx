@@ -14,14 +14,14 @@ import CTAv1 from "../../about-us/CTAv1";
 
 const services = [
   {
-    title: "Web Designing",
-    active: false,
-    link: "./web-designing",
-  },
-  {
     title: "Web Development",
     active: false,
     link: "./web-development",
+  },
+  {
+    title: "Mobile App Development",
+    active: false,
+    link: "./mobile-app-development",
   },
   {
     title: "E-Commerce Solutions",
@@ -160,7 +160,7 @@ const page = () => {
                 that is as scalable as your business, with a focus on
                 functionality, security, and performance.
               </p>
-              <ul className="mt-8 text-sm space-y-4">
+              <ul className="mt-8 space-y-4">
                 <li className="flex items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

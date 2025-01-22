@@ -45,7 +45,7 @@ const CallUsCard = () => {
             </svg>
 
             <a className="text-white ml-2" href="#">
-              (+44)123 456 789
+              +919094321163
             </a>
           </li>
           <li className="text-white mb-2 inline-flex items-center mx-auto">
@@ -60,7 +60,7 @@ const CallUsCard = () => {
             </svg>
 
             <a className="text-white ml-2" href="#">
-              addyour@emailhere
+              support@wecodethat.com
             </a>
           </li>
         </ul>

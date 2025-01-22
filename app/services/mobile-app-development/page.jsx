@@ -155,7 +155,7 @@ const page = () => {
                 dedicated to delivering top-notch mobile app solutions that
                 align with your business vision.
               </p>
-              <ul className="mt-8 text-sm space-y-4">
+              <ul className="mt-8 space-y-4">
                 <li className="flex items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

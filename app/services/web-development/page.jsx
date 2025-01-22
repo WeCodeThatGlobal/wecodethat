@@ -152,7 +152,7 @@ const page = () => {
                 prioritizes your brand’s vision, the user’s journey, and the
                 overall performance of the site.
               </p>
-              <ul className="mt-8 text-sm space-y-4">
+              <ul className="mt-8 space-y-4">
                 <li className="flex items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
