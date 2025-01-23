@@ -1,5 +1,5 @@
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 import Header from "./Header";
 import Image from "next/image";
 
@@ -80,46 +80,60 @@ const faqs = [
 ];
 
 const FAQ = () => {
+  const [openFaqId, setOpenFaqId] = useState(null); // Track the open FAQ by its ID
+
+  const toggleFaq = (id) => {
+    setOpenFaqId((prevId) => (prevId === id ? null : id)); // Toggle the clicked FAQ
+  };
+
   return (
-    <div className="">
+    <div className="p-4">
       <div className="mx-auto">
         <div className="mx-auto max-w-4xl divide-y divide-gray-900/10">
-          <dl className="space-y-6 ">
+          <dl className="space-y-6">
             {faqs.map((faq) => (
-              <Disclosure
-                key={faq.id}
-                as="div"
-                className="bg-white mt-4 py-4 px-4"
-              >
+              <div key={faq.id} className="bg-white mt-4 py-4 px-4">
                 <dt>
-                  <DisclosureButton className="group flex w-full items-start justify-between text-left text-gray-900">
+                  <button
+                    onClick={() => toggleFaq(faq.id)}
+                    className="group flex w-full items-start justify-between text-left text-gray-900"
+                  >
                     <span className="text-base/7 font-semibold">
                       {faq.question}
                     </span>
                     <span className="ml-6 flex h-7 items-center">
                       <PlusSmallIcon
                         aria-hidden="true"
-                        className="size-6 group-data-[open]:hidden"
+                        className={`size-6 ${
+                          openFaqId === faq.id ? "hidden" : "block"
+                        }`}
                       />
                       <MinusSmallIcon
                         aria-hidden="true"
-                        className="size-6 group-[&:not([data-open])]:hidden"
+                        className={`size-6 ${
+                          openFaqId === faq.id ? "block" : "hidden"
+                        }`}
                       />
                     </span>
-                  </DisclosureButton>
+                  </button>
                 </dt>
-                <DisclosurePanel as="dd" className="mt-2 pr-12 space-y-4">
-                  <p className="text-base/7 text-gray-600">{faq.para_1}</p>
-                  <ul className="list-disc ml-10 space-y-2">
-                    {faq.answer.map((item) => (
-                      <li key={faq.id} className="text-base/7 text-gray-600">
-                        {item}
-                      </li>
-                    ))}
-                  </ul>
-                  <p className="text-base/7 text-gray-600">{faq.para_2}</p>
-                </DisclosurePanel>
-              </Disclosure>
+                {openFaqId === faq.id && (
+                  <dd className="mt-2 pr-12 space-y-4">
+                    <p className="text-base/7 text-gray-600">{faq.para_1}</p>
+                    <ul className="list-disc ml-10 space-y-2">
+                      {faq.answer.map((item, index) => (
+                        <li
+                          key={`${faq.id}-${index}`}
+                          className="text-base/7 text-gray-600"
+                        >
+                          {item}
+                        </li>
+                      ))}
+                    </ul>
+                    <p className="text-base/7 text-gray-600">{faq.para_2}</p>
+                  </dd>
+                )}
+              </div>
             ))}
           </dl>
         </div>
