@@ -254,7 +254,10 @@ const FAQ = ({ faq }) => {
         <div className="mx-auto max-w-4xl divide-y divide-gray-900/10">
           <dl className="space-y-6">
             {faq.map((faq) => (
-              <div key={faq.id} className="bg-white mt-4 py-4 px-4">
+              <div
+                key={faq.id}
+                className="bg-slate-100 rounded-lg mt-4 py-4 px-4"
+              >
                 <dt>
                   <button
                     onClick={() => toggleFaq(faq.id)}

@@ -27,12 +27,18 @@ const WhatWeDo = () => {
           <div className="px-4 md:px-8">
             <Header
               alignment="text-left"
-              title="We are award winning web development agency."
+              title="Empowering Startups Through Innovation"
               subtitle="About Us"
             />
             <div className="w-full">
               <div className="text-gray-600 mt-8 font-medium leading-loose">
-                <ul className="mt-8  space-y-4">
+                <p className="">
+                  WeCodeThat was founded by passionate entrepreneurs who know
+                  the challenges and opportunities of launching and scaling a
+                  business. Our mission is to provide the technology, expertise,
+                  and resources startups need to thrive in a competitive world.
+                </p>
+                <ul className="mt-8 space-y-4 list-outside leading-relaxed">
                   <li className="flex items-center">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -40,7 +46,7 @@ const WhatWeDo = () => {
                       viewBox="0 0 24 24"
                       stroke-width="3"
                       stroke="currentColor"
-                      className="size-5 text-blue-600 mr-1.5"
+                      className="size-5 text-blue-600 mr-1.5 shrink-0 self-start mt-1.5"
                     >
                       <path
                         stroke-linecap="round"
@@ -48,7 +54,11 @@ const WhatWeDo = () => {
                         d="m4.5 12.75 6 6 9-13.5"
                       />
                     </svg>
-                    Remarkable to receive such a personalized touch.
+                    <p>
+                      <strong>Startup Mindset:</strong> We approach every
+                      project with the agility and creativity that only a
+                      startup can offer.
+                    </p>
                   </li>
                   <li className="flex items-center">
                     <svg
@@ -57,7 +67,7 @@ const WhatWeDo = () => {
                       viewBox="0 0 24 24"
                       stroke-width="3"
                       stroke="currentColor"
-                      className="size-5 text-blue-600 mr-1.5"
+                      className="size-5 text-blue-600 mr-1.5 shrink-0 self-start mt-1.5"
                     >
                       <path
                         stroke-linecap="round"
@@ -65,7 +75,11 @@ const WhatWeDo = () => {
                         d="m4.5 12.75 6 6 9-13.5"
                       />
                     </svg>
-                    Duis aute irure dolor in reprehenderit in voluptate.
+                    <p>
+                      <strong>Tailored Solutions:</strong> No cookie-cutter
+                      approaches—every solution is designed specifically for
+                      your business goals.
+                    </p>
                   </li>
                   <li className="flex items-center">
                     <svg
@@ -74,7 +88,7 @@ const WhatWeDo = () => {
                       viewBox="0 0 24 24"
                       stroke-width="3"
                       stroke="currentColor"
-                      className="size-5 text-blue-600 mr-1.5"
+                      className="size-5 text-blue-600 mr-1.5 shrink-0 self-start mt-1.5"
                     >
                       <path
                         stroke-linecap="round"
@@ -82,7 +96,10 @@ const WhatWeDo = () => {
                         d="m4.5 12.75 6 6 9-13.5"
                       />
                     </svg>
-                    I did not escape without a fight. Velit esse cillum dolore.
+                    <p>
+                      <strong>Collaboration First:</strong> Your success is our
+                      success, and we partner with you every step of the way.
+                    </p>
                   </li>
                 </ul>
               </div>

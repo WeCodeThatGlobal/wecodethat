@@ -14,7 +14,7 @@ import CTAv1 from "../../about-us/CTAv1";
 
 const services = [
   {
-    title: "Web Development",
+    title: "Custom Web Development",
     active: true,
     link: "./web-development",
   },
@@ -54,7 +54,7 @@ const page = () => {
   return (
     <div ref={box}>
       <Navbar />
-      <PageHeader title="Web Development" />
+      <PageHeader title="Custom Web Development" />
       <Layout>
         <Sidebar>
           <ServicesCard services={services} />
@@ -75,7 +75,7 @@ const page = () => {
           </div>
 
           <div className="my-8">
-            <h3 className="font-bold text-3xl">Web Development</h3>
+            <h3 className="font-bold text-3xl">Custom Web Development</h3>
             <p className="text-gray-600 font-medium mt-4 leading-relaxed">
               At WeCodeThat, we specialize in creating high-performing, visually
               stunning, and fully customized websites designed to elevate your

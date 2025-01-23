@@ -34,9 +34,28 @@ const Services = () => {
                     Crafting high-performing, user-friendly websites that scale
                     with your business.
                   </p>
-                  <Link href="/" className="mt-2">
-                    Learn More
-                  </Link>
+                  <div className="mt-3">
+                    <a
+                      href="../services/web-development"
+                      className=" text-gray-600 tracking-wider flex items-center gap-x-3"
+                    >
+                      Learn More
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={1.5}
+                        stroke="rgb(75 85 99)"
+                        className="size-6"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+                        />
+                      </svg>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -61,6 +80,28 @@ const Services = () => {
                     Creating online stores that offer seamless shopping
                     experiences for customers.
                   </p>
+                  <div className="mt-3">
+                    <a
+                      href="../services/web-development"
+                      className=" text-gray-600 tracking-wider flex items-center gap-x-3"
+                    >
+                      Learn More
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={1.5}
+                        stroke="rgb(75 85 99)"
+                        className="size-6"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+                        />
+                      </svg>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -85,6 +126,28 @@ const Services = () => {
                     Developing comprehensive strategies to enhance your brand
                     visibility and engagement online
                   </p>
+                  <div className="mt-3">
+                    <a
+                      href="../services/digital-marketing"
+                      className=" text-gray-600 tracking-wider flex items-center gap-x-3"
+                    >
+                      Learn More
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={1.5}
+                        stroke="rgb(75 85 99)"
+                        className="size-6"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+                        />
+                      </svg>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>

@@ -14,7 +14,7 @@ import CTAv1 from "../../about-us/CTAv1";
 
 const services = [
   {
-    title: "Web Development",
+    title: "Custom Web Development",
     active: false,
     link: "./web-development",
   },

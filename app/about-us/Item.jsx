@@ -1,24 +1,25 @@
 import React from "react";
 
-const Item = () => {
+const Item = ({ avatar, name, designation, link }) => {
   return (
     <div className="p-5">
       <div className="py-[40px] shadow-sm rounded-lg border bg-white flex flex-col items-center">
         <img
-          className="rounded-[50%] w-28 mb-4"
-          src="/team/team1.jpg"
-          srcSet="./assets/img/avatars/te3@2x.jpg 2x"
+          className="rounded-[50%] w-20 mb-4"
+          src={avatar}
+          srcSet={avatar}
           alt="image"
         />
-        <h4 className="mb-2 font-semibold">Nikolas Brooten</h4>
+        <h4 className="mb-2 font-semibold">{name}</h4>
         <div className="text-xs mb-4 uppercase tracking-[0.02rem] font-bold text-[#aab0bc]">
-          Sales Manager
+          {designation}
         </div>
 
         <div className="flex gap-3 items-center !mb-0">
           <a
             className=" transition-all duration-[0.2s] ease-in-out translate-y-0 hover:translate-y-[-0.15rem]"
-            href="#"
+            href={link}
+            target="blank"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
