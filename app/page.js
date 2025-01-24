@@ -12,6 +12,7 @@ import Blog from "./components/Blog";
 import ScrollToTop from "./components/ScrollToTop";
 import Footer from "./components/Footer";
 import useScrollPosition from "./hooks/useScrollPosition";
+import AppointmentBook from "./about-us/AppointmentBook";
 
 export default function HeroSection() {
   const box = useRef(null);
@@ -39,6 +40,7 @@ export default function HeroSection() {
       <Aboutus />
       <Testimonials />
       <Blog />
+      <AppointmentBook />
       <Footer />
       <ScrollToTop percentage={scrollPercentage} />
     </div>
