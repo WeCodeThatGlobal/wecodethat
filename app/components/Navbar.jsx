@@ -18,7 +18,7 @@ export const Navbar = ({ showStickyNav }) => {
       <div className="container mx-auto px-4 md:px-8 flex items-center justify-between h-16">
         {/* Logo */}
         <Link href="/" legacyBehavior>
-          <a className="w-64 text-xl font-bold text-blue-600">
+          <a className="w-60 text-xl font-bold text-blue-600">
             {showStickyNav ? (
               <img src="/logo/Full_Logo_Bl.png" alt="" />
             ) : (
@@ -44,6 +44,16 @@ export const Navbar = ({ showStickyNav }) => {
           {/* <Link href="/contact" legacyBehavior>
             <a className=" transition">Blog</a>
           </Link> */}
+          <a
+            href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ0THqOtbWCkTEfTRS6X_4n16i8N0hFxFi_s6PKGGqCrZAHWCbgBmBtOFmqcFGOTZ3MdC8hK6RMI?gv=true"
+            target="blank"
+            className="rounded-md bg-gray-900 text-white px-3.5 py-2.5 text-sm font-semibold hover:text-white "
+          >
+            Book a Free Call
+            <span className="ml-4" aria-hidden="true">
+              →
+            </span>
+          </a>
         </div>
 
         {/* Mobile Menu Button */}
