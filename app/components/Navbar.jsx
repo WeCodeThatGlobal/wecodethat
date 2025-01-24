@@ -32,7 +32,7 @@ export const Navbar = ({ showStickyNav }) => {
           <Link href="/" legacyBehavior>
             <a className=" transition">Home</a>
           </Link>
-          <Link href="/features" legacyBehavior>
+          <Link href="#services" legacyBehavior>
             <a className=" transition">Services</a>
           </Link>
           <Link href="/about-us" legacyBehavior>

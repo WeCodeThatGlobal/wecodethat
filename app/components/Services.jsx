@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const Services = () => {
   return (
-    <div className="bg-slate-100">
+    <div className="bg-slate-100" id="services">
       <div className="container mx-auto px-4">
         <div className="max-w-7xl mx-auto py-16">
           <Header title="Services That Help You Grow." subtitle="What We Do" />
