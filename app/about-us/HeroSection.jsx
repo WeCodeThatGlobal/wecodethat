@@ -64,8 +64,8 @@ const Header = () => {
                 target="blank"
                 className="group relative inline-flex h-10 items-center justify-center overflow-hidden rounded-md bg-blue-600 hover:text-white px-6 font-semibold text-sm text-neutral-950 "
               >
-                <span class="absolute h-48 w-56 rounded-full bg-neutral-50 transition-all duration-300 group-hover:h-0 group-hover:w-0"></span>
-                <span class="relative">Start your Journey with us</span>
+                <span className="absolute h-48 w-56 rounded-full bg-neutral-50 transition-all duration-300 group-hover:h-0 group-hover:w-0"></span>
+                <span className="relative">Start your Journey with us</span>
               </a>
 
               </div>

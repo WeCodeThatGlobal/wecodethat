@@ -142,7 +142,7 @@ const FooterBlock = () => {
             <div className="flex items-center mt-4">
               <div>
                 <svg
-                  class="size-6 text-blue-600"
+                  className="size-6 text-blue-600"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"

@@ -26,8 +26,8 @@ const CTAv1 = ({ cta }) => {
             target="blank"
             className="group relative inline-flex h-10 items-center justify-center overflow-hidden rounded-md bg-neutral-50 hover:text-blue-600 px-6 font-semibold text-sm text-neutral-50 "
           >
-            <span class="absolute h-48 w-44 rounded-full bg-blue-600 transition-all duration-300 group-hover:h-0 group-hover:w-0"></span>
-            <span class="relative">Book a Free Call</span>
+            <span className="absolute h-48 w-44 rounded-full bg-blue-600 transition-all duration-300 group-hover:h-0 group-hover:w-0"></span>
+            <span className="relative">Book a Free Call</span>
           </a>
           </div>
         </div>
