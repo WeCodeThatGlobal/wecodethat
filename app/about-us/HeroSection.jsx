@@ -59,16 +59,15 @@ const Header = () => {
                 together.
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6 w-full">
-                <a
-                  href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ0THqOtbWCkTEfTRS6X_4n16i8N0hFxFi_s6PKGGqCrZAHWCbgBmBtOFmqcFGOTZ3MdC8hK6RMI?gv=true"
-                  target="blank"
-                  className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold hover:text-white hover:bg-black hover:shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)]  hover:shadow-gray-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                >
-                  Start Your Journey with Us
-                  <span className="ml-4" aria-hidden="true">
-                    →
-                  </span>
-                </a>
+              <a
+                href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ0THqOtbWCkTEfTRS6X_4n16i8N0hFxFi_s6PKGGqCrZAHWCbgBmBtOFmqcFGOTZ3MdC8hK6RMI?gv=true"
+                target="blank"
+                className="group relative inline-flex h-10 items-center justify-center overflow-hidden rounded-md bg-blue-600 hover:text-white px-6 font-semibold text-sm text-neutral-950 "
+              >
+                <span class="absolute h-48 w-56 rounded-full bg-neutral-50 transition-all duration-300 group-hover:h-0 group-hover:w-0"></span>
+                <span class="relative">Start your Journey with us</span>
+              </a>
+
               </div>
             </div>
           </div>
