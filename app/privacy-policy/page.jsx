@@ -57,7 +57,7 @@ const page = () => {
                     className="size-5 text-blue-600 mr-1.5"
                   >
                     <path
-                      stroke-linecap="round"
+                      strokeLinecap="round"
                       stroke-linejoin="round"
                       d="m4.5 12.75 6 6 9-13.5"
                     />
@@ -83,7 +83,7 @@ const page = () => {
                     className="size-5 text-blue-600 mr-1.5"
                   >
                     <path
-                      stroke-linecap="round"
+                      strokeLinecap="round"
                       stroke-linejoin="round"
                       d="m4.5 12.75 6 6 9-13.5"
                     />
@@ -338,7 +338,7 @@ const page = () => {
                       className="size-5 text-blue-600 mr-1.5"
                     >
                       <path
-                        stroke-linecap="round"
+                        strokeLinecap="round"
                         stroke-linejoin="round"
                         d="m4.5 12.75 6 6 9-13.5"
                       />
@@ -355,7 +355,7 @@ const page = () => {
                       className="size-5 text-blue-600 mr-1.5"
                     >
                       <path
-                        stroke-linecap="round"
+                        strokeLinecap="round"
                         stroke-linejoin="round"
                         d="m4.5 12.75 6 6 9-13.5"
                       />
@@ -372,7 +372,7 @@ const page = () => {
                       className="size-5 text-blue-600 mr-1.5"
                     >
                       <path
-                        stroke-linecap="round"
+                        strokeLinecap="round"
                         stroke-linejoin="round"
                         d="m4.5 12.75 6 6 9-13.5"
                       />
@@ -389,7 +389,7 @@ const page = () => {
                       className="size-5 text-blue-600 mr-1.5"
                     >
                       <path
-                        stroke-linecap="round"
+                        strokeLinecap="round"
                         stroke-linejoin="round"
                         d="m4.5 12.75 6 6 9-13.5"
                       />
