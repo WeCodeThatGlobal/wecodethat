@@ -47,12 +47,10 @@ export const Navbar = ({ showStickyNav }) => {
           <a
             href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ0THqOtbWCkTEfTRS6X_4n16i8N0hFxFi_s6PKGGqCrZAHWCbgBmBtOFmqcFGOTZ3MdC8hK6RMI?gv=true"
             target="blank"
-            className="rounded-md bg-gray-900 text-white px-3.5 py-2.5 text-sm font-semibold hover:text-white "
+            className="group relative inline-flex h-10 items-center justify-center overflow-hidden rounded-md bg-neutral-950 px-6 font-semibold text-sm text-neutral-50 "
           >
-            Book a Free Call
-            <span className="ml-4" aria-hidden="true">
-              →
-            </span>
+            <span class="absolute h-48 w-44 rounded-full bg-blue-600 transition-all duration-300 group-hover:h-0 group-hover:w-0"></span>
+            <span class="relative">Book a Free Call</span>
           </a>
         </div>
 

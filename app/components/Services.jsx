@@ -37,7 +37,7 @@ const Services = () => {
                   <div className="mt-3">
                     <a
                       href="../services/web-development"
-                      className=" text-gray-600 tracking-wider flex items-center gap-x-3"
+                      className=" text-blue-600 font-semibold text-sm tracking-wider flex items-center gap-x-3"
                     >
                       Learn More
                       <svg
@@ -45,7 +45,7 @@ const Services = () => {
                         fill="none"
                         viewBox="0 0 24 24"
                         strokeWidth={1.5}
-                        stroke="rgb(75 85 99)"
+                        stroke="currentColor"
                         className="size-6"
                       >
                         <path
@@ -83,7 +83,7 @@ const Services = () => {
                   <div className="mt-3">
                     <a
                       href="../services/web-development"
-                      className=" text-gray-600 tracking-wider flex items-center gap-x-3"
+                      className=" text-blue-600 font-semibold text-sm tracking-wider flex items-center gap-x-3"
                     >
                       Learn More
                       <svg
@@ -91,7 +91,7 @@ const Services = () => {
                         fill="none"
                         viewBox="0 0 24 24"
                         strokeWidth={1.5}
-                        stroke="rgb(75 85 99)"
+                        stroke="currentColor"
                         className="size-6"
                       >
                         <path
@@ -129,7 +129,7 @@ const Services = () => {
                   <div className="mt-3">
                     <a
                       href="../services/digital-marketing"
-                      className=" text-gray-600 tracking-wider flex items-center gap-x-3"
+                      className=" text-blue-600 font-semibold text-sm tracking-wider flex items-center gap-x-3"
                     >
                       Learn More
                       <svg
@@ -137,7 +137,7 @@ const Services = () => {
                         fill="none"
                         viewBox="0 0 24 24"
                         strokeWidth={1.5}
-                        stroke="rgb(75 85 99)"
+                        stroke="currentColor"
                         className="size-6"
                       >
                         <path
