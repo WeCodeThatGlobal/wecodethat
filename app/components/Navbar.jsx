@@ -32,26 +32,30 @@ export const Navbar = ({ showStickyNav }) => {
           <Link href="/" legacyBehavior>
             <a className=" transition">Home</a>
           </Link>
-          <Link href="#services" legacyBehavior>
+          <Link href="/#services" legacyBehavior>
             <a className=" transition">Services</a>
           </Link>
           <Link href="/about-us" legacyBehavior>
             <a className=" transition">About Us</a>
           </Link>
           <Link href="/contact-us" legacyBehavior>
-            <a className=" transition">Contact Us</a>
+            <a className="transition">Contact Us</a>
           </Link>
           {/* <Link href="/contact" legacyBehavior>
             <a className=" transition">Blog</a>
           </Link> */}
-          <a
+          <Link
             href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ0THqOtbWCkTEfTRS6X_4n16i8N0hFxFi_s6PKGGqCrZAHWCbgBmBtOFmqcFGOTZ3MdC8hK6RMI?gv=true"
-            target="blank"
-            className="group relative inline-flex h-10 items-center justify-center overflow-hidden rounded-md bg-neutral-950 px-6 font-semibold text-sm text-neutral-50 "
+            legacyBehavior
           >
-            <span className="absolute h-48 w-44 rounded-full bg-blue-600 transition-all duration-300 group-hover:h-0 group-hover:w-0"></span>
-            <span className="relative">Book a Free Call</span>
-          </a>
+            <a
+              target="blank"
+              className="group relative inline-flex h-10 items-center justify-center overflow-hidden rounded-md bg-neutral-950 px-6 font-semibold text-sm text-neutral-50 "
+            >
+              <span className="absolute h-48 w-44 rounded-full bg-blue-600 transition-all duration-300 group-hover:h-0 group-hover:w-0"></span>
+              <span className="relative">Book a Free Call</span>
+            </a>
+          </Link>
         </div>
 
         {/* Mobile Menu Button */}
@@ -85,30 +89,32 @@ export const Navbar = ({ showStickyNav }) => {
                 Home
               </a>
             </Link>
-            <Link href="/features" legacyBehavior>
+            <Link href="/#services" legacyBehavior>
               <a className="block text-gray-800 hover:text-blue-600 transition">
-                Features
+                Services
               </a>
             </Link>
-            <Link href="/pricing" legacyBehavior>
+            <Link href="/about-us" legacyBehavior>
               <a className="block text-gray-800 hover:text-blue-600 transition">
-                Pricing
+                About Us
               </a>
             </Link>
-            <Link href="/contact" legacyBehavior>
+            <Link href="/contact-us" legacyBehavior>
               <a className="block text-gray-800 hover:text-blue-600 transition">
-                Contact
+                Contact Us
               </a>
             </Link>
             <hr className="border-gray-800" />
-            <Link href="/login" legacyBehavior>
-              <a className="block text-gray-800 hover:text-blue-600 transition">
-                Login
-              </a>
-            </Link>
-            <Link href="/signup" legacyBehavior>
-              <a className="block bg-blue-800 text-white text-center px-4 py-2 rounded hover:bg-blue-700 transition">
-                Sign Up
+            <Link
+              href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ0THqOtbWCkTEfTRS6X_4n16i8N0hFxFi_s6PKGGqCrZAHWCbgBmBtOFmqcFGOTZ3MdC8hK6RMI?gv=true"
+              legacyBehavior
+            >
+              <a
+                target="blank"
+                className="group relative inline-flex h-10 items-center justify-center overflow-hidden rounded-md bg-neutral-950 px-6 font-semibold text-sm text-neutral-50 "
+              >
+                <span className="absolute h-48 w-44 rounded-full bg-blue-600 transition-all duration-300 group-hover:h-0 group-hover:w-0"></span>
+                <span className="relative">Book a Free Call</span>
               </a>
             </Link>
           </div>

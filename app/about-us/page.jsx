@@ -1,4 +1,5 @@
-import React from "react";
+"use client";
+import React, { useEffect, useRef, useState } from "react";
 import { Navbar } from "../components/Navbar";
 import Item from "./Item";
 import HeroSection from "./HeroSection";
@@ -9,10 +10,26 @@ import Statistacs from "./Statistacs";
 import CTAv2 from "./CTAv2";
 import CTAv1 from "./CTAv1";
 import AppointmentBook from "./AppointmentBook";
-
+import ScrollToTop from "../components/ScrollToTop";
 import FooterBlock from "../components/Footer";
+import useScrollPosition from "../hooks/useScrollPosition";
 
 const page = () => {
+  const box = useRef(null);
+  const scrollPosition = useScrollPosition();
+  const [scrollPercentage, setScrollPercentage] = useState(0);
+
+  useEffect(() => {
+    const updateScrollPercentage = () => {
+      const scrollHeight = document.body.scrollHeight - window.innerHeight;
+      const percentage =
+        scrollHeight > 0 ? (scrollPosition / scrollHeight) * 100 : 0;
+      setScrollPercentage(percentage);
+    };
+
+    updateScrollPercentage();
+  }, [scrollPosition]);
+
   return (
     <>
       <Navbar />
@@ -89,6 +106,7 @@ const page = () => {
         <AppointmentBook />
       </main>
       <FooterBlock />
+      <ScrollToTop percentage={scrollPercentage} />
     </>
   );
 };
