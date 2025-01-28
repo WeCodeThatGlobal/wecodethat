@@ -50,10 +50,10 @@ const page = () => {
         <CTAv1 />
         <HowWeWork />
 
-        <div className="bg-slate-50">
+        <div className="bg-gray-950">
           <section className="max-w-7xl mx-auto px-5 py-16">
             <div className="text-center max-w-2xl mx-auto">
-              <h3 className="lg:text-4xl font-bold !leading-[1.3] !mb-8 lg:!px-10 xl:!px-10 text-gray-700">
+              <h3 className="lg:text-4xl font-bold !leading-[1.3] !mb-8 lg:!px-10 xl:!px-10 text-gray-100">
                 Save your time and money by choosing our professional team.
               </h3>
             </div>
