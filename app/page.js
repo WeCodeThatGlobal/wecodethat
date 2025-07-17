@@ -5,6 +5,7 @@ import { useRef, useEffect, useState } from "react";
 import WhoWeAre from "./components/WhoWeAre";
 import WhoWeAre2 from "./components/WhoWeAre2";
 import WorkProcess from "./components/WorkProcess";
+import CaseStudy from "./components/CaseStudy";
 import Aboutus from "./components/Aboutus";
 import Testimonials from "./components/Testimonials";
 import Blog from "./components/Blog";
@@ -39,6 +40,7 @@ export default function HeroSection() {
       <Aboutus />
       <Testimonials />
       <Blog />
+      <CaseStudy />
       <AppointmentBook />
       <Footer />
       <ScrollToTop percentage={scrollPercentage} />
