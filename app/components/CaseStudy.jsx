@@ -1,19 +1,16 @@
 import Image from "next/image";
 import Link from "next/link";
+import Header from "./Header";
 
 const CaseStudy = () => {
   return (
     <section className="py-20 bg-[f9f9fb]">
       <div className="max-w-7xl mx-auto px-5 xs:px-10 md:px-12 lg:px-5 space-y-16">
-        <div className="w-full space-y-3 text-center">
-          <h1 className="text-3xl font-semibold text-blue-950 dark:text-white md:text-4xl xl:text-5xl leading-tight tracking-tight">
-            Take a look at our articles & resources
-          </h1>
-          <p className="text-gray-700 dark:text-gray-300 max-w-lg mx-auto">
-            Sed ut perspiciatis unde omnis iste natus error sit amet voluptatem
-            accusantium doloremque laudantium elit.
-          </p>
-        </div>
+        <Header
+          alignment="text-center"
+          title="Explore the Stories Behind Our Most Successful Projects"
+          subtitle="Case Studies"
+        />
 
         <div className="flex flex-col lg:flex-row gap-8">
           {/* CARD 1 */}

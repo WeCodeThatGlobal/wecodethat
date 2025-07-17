@@ -20,6 +20,9 @@ module.exports = {
         "service-02": "url('/services/service-02.jpg')",
         "service-03": "url('/services/service-03.jpg')",
       },
+      fontFamily: {
+        ibm: ["var(--font-ibm)", "sans-serif"],
+      },
     },
   },
   plugins: [require("preline/plugin"), require("@tailwindcss/typography")],

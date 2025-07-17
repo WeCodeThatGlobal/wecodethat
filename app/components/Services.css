@@ -58,7 +58,6 @@ span.icon {
 span.icon img {
   width: 40px;
   vertical-align: middle;
-  margin-top: -4px;
 }
 .card {
   transition: 0.5s;

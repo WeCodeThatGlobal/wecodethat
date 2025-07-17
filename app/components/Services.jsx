@@ -14,12 +14,8 @@ const Services = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
             <div className="card group relative p-6 bg-white shadow rounded-md bg-service-01">
-              <span className="icon">
-                <Image
-                  src="https://flywebwp.websitelayout.net/wp-content/uploads/2023/09/13.png"
-                  width={40}
-                  height={40}
-                />
+              <span className="icon ">
+                <Image src="/icon/13.png" width={40} height={40} />
               </span>
 
               <div className="overflow-hidden relative z-50">
@@ -61,11 +57,7 @@ const Services = () => {
             </div>
             <div className="card group relative p-6 bg-white shadow rounded-md bg-service-02">
               <span className="icon">
-                <Image
-                  src="https://flywebwp.websitelayout.net/wp-content/uploads/2023/09/13.png"
-                  width={40}
-                  height={40}
-                />
+                <Image src="/icon/14.png" width={40} height={40} />
               </span>
 
               <div className="overflow-hidden relative z-50">
@@ -107,11 +99,7 @@ const Services = () => {
             </div>
             <div className="card group relative p-6 bg-white shadow rounded-md bg-service-03">
               <span className="icon">
-                <Image
-                  src="https://flywebwp.websitelayout.net/wp-content/uploads/2023/09/13.png"
-                  width={40}
-                  height={40}
-                />
+                <Image src="/icon/15.png" width={40} height={40} />
               </span>
 
               <div className="overflow-hidden relative z-50">
