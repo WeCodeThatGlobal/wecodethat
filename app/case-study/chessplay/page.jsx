@@ -1,10 +1,10 @@
 "use client";
 import React from "react";
-import { Navbar } from "../components/Navbar";
+import { Navbar } from "../../components/Navbar";
 import { useRef, useEffect, useState } from "react";
-import useScrollPosition from "../hooks/useScrollPosition";
-import FooterBlock from "../components/Footer";
-import ScrollToTop from "../components/ScrollToTop";
+import useScrollPosition from "../../hooks/useScrollPosition";
+import FooterBlock from "../../components/Footer";
+import ScrollToTop from "../../components/ScrollToTop";
 import { IBM_Plex_Sans } from "next/font/google";
 
 const ibmPlexSans = IBM_Plex_Sans({
@@ -157,7 +157,7 @@ const page = () => {
               <div className="rounded-xl overflow-hidden">
                 <img
                   src="/caseStudy/chessplay.png"
-                  alt="Business consultants"
+                  alt="Screenshot of the ChessPlay.io application dashboard"
                   className="object-contain w-full h-full max-w-full"
                 />
               </div>

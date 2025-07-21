@@ -1,10 +1,10 @@
 "use client";
 import React from "react";
-import { Navbar } from "../components/Navbar";
+import { Navbar } from "../../components/Navbar";
 import { useRef, useEffect, useState } from "react";
-import useScrollPosition from "../hooks/useScrollPosition";
-import FooterBlock from "../components/Footer";
-import ScrollToTop from "../components/ScrollToTop";
+import useScrollPosition from "../../hooks/useScrollPosition";
+import FooterBlock from "../../components/Footer";
+import ScrollToTop from "../../components/ScrollToTop";
 import { IBM_Plex_Sans } from "next/font/google";
 
 const ibmPlexSans = IBM_Plex_Sans({
@@ -150,7 +150,7 @@ const page = () => {
               <div className="rounded-xl overflow-hidden">
                 <img
                   src="/caseStudy/onecalltax.png"
-                  alt="Business consultants"
+                  alt="Screenshot of the One Call Tax website"
                   className="object-contain w-full h-full max-w-full"
                 />
               </div>
@@ -190,10 +190,10 @@ const page = () => {
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="lucide lucide-dot-icon lucide-dot"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="lucide lucide-dot-icon lucide-dot"
               >
                 <circle cx="12.1" cy="12.1" r="1" />
               </svg>
@@ -239,10 +239,10 @@ const page = () => {
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="lucide lucide-dot-icon lucide-dot"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="lucide lucide-dot-icon lucide-dot"
               >
                 <circle cx="12.1" cy="12.1" r="1" />
               </svg>
