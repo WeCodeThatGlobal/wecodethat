@@ -70,14 +70,6 @@ const solutionList6 = [
   `DPDP-aligned privacy features like right-to-delete and data export.`,
 ];
 
-const resultsList = [
-  `15,000+ installs in the first 90 days with minimal marketing.`,
-  `87% booking acceptance rate due to job-offer timing logic.`,
-  `4.6/5 average service rating.`,
-  `25% shorter turnaround vs. traditional workshops.`,
-  `Payout processing time reduced from 2 days to under 2 hours.`,
-];
-
 const techStackList = [
   {
     key: "Backend",
@@ -516,18 +508,6 @@ const page = () => {
                 ))}
               </ul>
             </div>
-          </section>
-
-          {/* Results & Impact */}
-          <section className="space-y-5">
-            <h2 className="text-lg font-bold">Results & Impact:</h2>
-            <ul className="pl-5 space-y-2">
-              {resultsList.map((result, index) => (
-                <li key={index} className="flex items-start gap-x-2">
-                  <span className="text-green-600">✅</span> {result}
-                </li>
-              ))}
-            </ul>
           </section>
 
           {/* Client Feedback */}

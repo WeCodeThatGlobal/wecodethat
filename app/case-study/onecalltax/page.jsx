@@ -56,15 +56,6 @@ const solutionList4 = [
   "Educational content to build trust and authority",
 ];
 
-const resultsList = [
-  "Improved lead generation by 250% across all service categories",
-  "Achieved 85% mobile traffic conversion rate",
-  "Reduced consultation booking friction by 60%",
-  "Increased organic search visibility for key compliance keywords",
-  "Generated qualified leads with clear source attribution",
-  "Streamlined admin workflow with automated lead tracking",
-];
-
 const techStackList = [
   "Next.js (React Framework)",
   "Tailwind CSS (Styling Framework)",
@@ -138,13 +129,9 @@ const page = () => {
 
           <div className="absolute top-28 md:top-40 left-1/2 transform -translate-x-1/2 w-full max-w-screen-xl px-4">
             <div className="flex flex-col justify-center items-center">
-              <h1 className="text-[#ffffff] text-2xl sm:text-3xl md:text-4xl lg:text-6xl tracking-tight font-ibm leading-tight">
+              <h1 className="text-[#ffffff] text-2xl sm:text-3xl md:text-4xl lg:text-6xl tracking-tight font-ibm leading-tight mb-16">
                 Tax Services Website with <br /> Integrated Booking System
               </h1>
-              <div className="flex gap-x-3 items-center py-4 lg:mb-5">
-                <div className="w-2 h-2 rounded-full bg-[#ffffff]"></div>
-                <span className="text-[#ffffff] font-ibm">July 19, 2025</span>
-              </div>
             </div>
             <div className="w-[300px] h-[300px] md:w-[500px] md:h-[500px] lg:w-[600px] lg:h-[600px] xl:w-[700px] xl:h-[700px] mx-auto overflow-hidden">
               <div className="rounded-xl overflow-hidden">
@@ -424,18 +411,6 @@ const page = () => {
                     <circle cx="12.1" cy="12.1" r="1" />
                   </svg>
                   {item}
-                </li>
-              ))}
-            </ul>
-          </section>
-
-          {/* Results & Impact */}
-          <section className="space-y-5">
-            <h2 className="text-lg font-bold">Results & Impact:</h2>
-            <ul className="pl-5 space-y-2">
-              {resultsList.map((result, index) => (
-                <li key={index} className="flex items-start gap-x-2">
-                  <span className="text-green-600">✅</span> {result}
                 </li>
               ))}
             </ul>
