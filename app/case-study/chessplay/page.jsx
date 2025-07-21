@@ -12,6 +12,7 @@ const ibmPlexSans = IBM_Plex_Sans({
   weight: ["400", "500", "700"],
   variable: "--font-ibm",
 });
+
 // DotIcon Component
 const DotIcon = () => (
   <svg
@@ -77,14 +78,6 @@ const solution = {
   ],
 };
 
-const results = [
-  "Onboarded 100+ coaches globally in first 6 months",
-  "Reduced operational workload by 40% for academy admins",
-  "Over 10,000+ lessons delivered via platform",
-  "95% positive feedback on student UX",
-  "Enabled full transition from WhatsApp/Sheets to a structured LMS",
-];
-
 const techStack = [
   "Next.js (Frontend)",
   "Node.js + Express (Backend API)",
@@ -144,14 +137,10 @@ const page = () => {
 
           <div className="absolute top-28 md:top-40 left-1/2 transform -translate-x-1/2 w-full max-w-screen-xl px-4">
             <div className="flex flex-col justify-center items-center">
-              <h1 className="text-[#ffffff] text-center text-2xl sm:text-3xl md:text-4xl lg:text-6xl tracking-tight font-ibm leading-tight">
+              <h1 className="text-[#ffffff] text-center text-2xl sm:text-3xl md:text-4xl lg:text-6xl tracking-tight font-ibm leading-tight mb-16">
                 The All-in-One LMS Built For Chess <br /> Coaches, With Chess
                 Coaches
               </h1>
-              <div className="flex gap-x-3 items-center py-4 lg:mb-5">
-                <div className="w-2 h-2 rounded-full bg-[#ffffff]"></div>
-                <span className="text-[#ffffff] font-ibm">July 19, 2025</span>
-              </div>
             </div>
             <div className="w-[300px] h-[300px] md:w-[500px] md:h-[500px] lg:w-[600px] lg:h-[600px] xl:w-[700px] xl:h-[700px] mx-auto overflow-hidden">
               <div className="rounded-xl overflow-hidden">
@@ -298,18 +287,6 @@ const page = () => {
               {solution.platform.map((item, index) => (
                 <li key={index} className="flex items-start gap-x-1">
                   <DotIcon /> {item}
-                </li>
-              ))}
-            </ul>
-          </section>
-
-          {/* Results */}
-          <section className="space-y-5">
-            <h2 className="text-lg font-bold">Results & Metrics:</h2>
-            <ul className="pl-5 space-y-2">
-              {results.map((item, index) => (
-                <li key={index} className="flex items-start gap-x-2">
-                  <span className="text-green-600">✅</span> {item}
                 </li>
               ))}
             </ul>

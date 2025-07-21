@@ -3,7 +3,6 @@ import React from "react";
 import Header from "./Header";
 import "./Services.css";
 import Image from "next/image";
-import Link from "next/link";
 
 const Services = () => {
   return (
@@ -74,7 +73,7 @@ const Services = () => {
                   </p>
                   <div className="mt-3">
                     <a
-                      href="../services/web-development"
+                      href="../services/e-commerce-solutions"
                       className=" text-blue-600 font-semibold text-sm tracking-wider flex items-center gap-x-3"
                     >
                       Learn More

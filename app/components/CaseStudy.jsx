@@ -4,7 +4,7 @@ import Header from "./Header";
 
 const CaseStudy = () => {
   return (
-    <section className="py-20 bg-[f9f9fb]">
+    <section className="py-20 bg-[f9f9fb]" id="case-study">
       <div className="max-w-7xl mx-auto px-5 xs:px-10 md:px-12 lg:px-5 space-y-16">
         <Header
           alignment="text-center"

@@ -6,7 +6,7 @@ const CallUsCard = () => {
       <img
         decoding="async"
         className="rounded-t-lg"
-        src="https://flywebwp.websitelayout.net/wp-content/uploads/2023/09/contact-img.jpg"
+        src="/services/callus.jpg"
         alt="..."
       ></img>
       <div className="pt-8 pb-6 rounded-b-lg bg-gray-900 relative text-center">
