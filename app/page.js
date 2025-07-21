@@ -7,6 +7,7 @@ import WhoWeAre2 from "./components/WhoWeAre2";
 import WorkProcess from "./components/WorkProcess";
 import Aboutus from "./components/Aboutus";
 import Testimonials from "./components/Testimonials";
+import CaseStudy from "./components/CaseStudy";
 import Blog from "./components/Blog";
 import ScrollToTop from "./components/ScrollToTop";
 import Footer from "./components/Footer";
@@ -39,6 +40,7 @@ export default function HeroSection() {
       <Aboutus />
       <Testimonials />
       <Blog />
+      <CaseStudy />
       <AppointmentBook />
       <Footer />
       <ScrollToTop percentage={scrollPercentage} />

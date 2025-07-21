@@ -19,32 +19,43 @@ const CaseStudy = () => {
             <div>
               <div className="h-[300px] relative">
                 <img
-                  src="/caseStudy.webp"
-                  alt="Corporate case study illustration"
-                  className="h-full w-full object-cover"
+                  src="/caseStudy/chessplay.png"
+                  alt="chessplay case study illustration"
+                  className="h-full w-full object-fill"
                 />
                 <p className="bg-indigo-200 text-indigo-800 px-4 py-1 inline-block text-xs font-semibold rounded-2xl absolute bottom-4 left-6">
-                  Corporate
+                  SAAS
                 </p>
               </div>
               <div className="p-6">
-                <Link href="/">
+                <Link href="/case-study-chessplay">
                   <h3 className="text-2xl leading-7 font-semibold text-gray-900">
-                    Provisions for customer personal data if the Corporate
-                    Dissolves or Acquisitions
+                    ChessPlay.io The All-in-One LMS Built For Chess Coaches,
+                    With Chess Coaches
                   </h3>
                 </Link>
                 <div className="flex justify-between my-2 items-center">
                   <div className="flex gap-x-6">
-                    <Link href="/" className="text-sm text-gray-700">
-                      AFIF
-                    </Link>
-                    <ul className="list-disc list-outside text-gray-600">
-                      <li className="text-gray-500 text-sm">Jan 01, 2025</li>
-                    </ul>
+                    <p className="text-gray-500 text-sm flex items-center gap-x-1">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="28"
+                        height="28"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-dot-icon lucide-dot"
+                      >
+                        <circle cx="12.1" cy="12.1" r="1" />
+                      </svg>
+                      Jan 01, 2025
+                    </p>
                   </div>
                   <div className="w-10 h-10 border border-gray-200 flex justify-center items-center rounded-full">
-                    <Link href="/">
+                    <Link href="/case-study-chessplay">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
@@ -72,33 +83,42 @@ const CaseStudy = () => {
               <div className="flex flex-col lg:flex-row h-full">
                 <div className="lg:w-2/5 bg-gray-600 shrink-0 h-[300px] lg:h-auto relative">
                   <img
-                    src="/caseStudy.webp"
-                    alt="Corporate case study overview"
+                    src="/caseStudy/onecalltax.png"
+                    alt="onecalltax case study overview"
                     className="h-full w-full object-cover"
                   />
-                  <p className="bg-purple-200 text-purple-800 px-4 py-1 inline-block text-xs font-semibold rounded-2xl absolute bottom-4 left-6 lg:hidden">
-                    Corporate
-                  </p>
                 </div>
                 <div className="pt-6 px-6 flex-1 pb-6 lg:pb-0">
                   <p className="bg-purple-200 text-purple-800 px-4 py-1 lg:inline-block text-xs font-semibold rounded-2xl mb-3 hidden">
-                    Corporate
+                    Website
                   </p>
-                  <Link href="/">
+                  <Link href="/case-study-onecalltax">
                     <h3 className="text-2xl leading-7 font-semibold text-gray-900">
-                      Presents the Payarin integrated solutions platform for
-                      corporate customers
+                      Tax Services Website with Integrated Booking System
                     </h3>
                   </Link>
                   <div className="flex justify-between items-center my-2 lg:my-0 lg:mt-1 ">
                     <div className="flex gap-x-6">
-                      <Link href="/">AFIF</Link>
-                      <ul className="list-disc list-outside text-gray-600">
-                        <li className="text-gray-500">Jan 01, 2025</li>
-                      </ul>
+                      <p className="text-gray-500 text-sm flex items-center gap-x-1">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="28"
+                          height="28"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          class="lucide lucide-dot-icon lucide-dot"
+                        >
+                          <circle cx="12.1" cy="12.1" r="1" />
+                        </svg>
+                        Jan 01, 2025
+                      </p>
                     </div>
                     <div className="w-10 h-10 border border-gray-200 flex justify-center items-center rounded-full">
-                      <Link href="/">
+                      <Link href="/case-study-onecalltax">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"
