@@ -18,7 +18,7 @@ const WhatWeDo = () => {
             </div>
             <div className="image-hover position-relative overflow-hidden">
               <img
-                className="w-full h-auto rounded-md mt-24"
+                className="w-full h-auto rounded-md mt-24 object-contain"
                 src="/whoweare/whoweare-02.jpg"
                 alt="Descriptive alt text"
               />

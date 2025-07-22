@@ -59,15 +59,13 @@ const Header = () => {
                 together.
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6 w-full">
-              <a
-                href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ0THqOtbWCkTEfTRS6X_4n16i8N0hFxFi_s6PKGGqCrZAHWCbgBmBtOFmqcFGOTZ3MdC8hK6RMI?gv=true"
-                target="blank"
-                className="group relative inline-flex h-10 items-center justify-center overflow-hidden rounded-md bg-blue-600 hover:text-white px-6 font-semibold text-sm text-neutral-950 "
-              >
-                <span className="absolute h-48 w-56 rounded-full bg-neutral-50 transition-all duration-300 group-hover:h-0 group-hover:w-0"></span>
-                <span className="relative">Start your Journey with us</span>
-              </a>
-
+                <a
+                  href="/contact-us"
+                  className="group relative inline-flex h-10 items-center justify-center overflow-hidden rounded-md bg-blue-600 hover:text-white px-6 font-semibold text-sm text-neutral-950 "
+                >
+                  <span className="absolute h-48 w-56 rounded-full bg-neutral-50 transition-all duration-300 group-hover:h-0 group-hover:w-0"></span>
+                  <span className="relative">Start your Journey with us</span>
+                </a>
               </div>
             </div>
           </div>

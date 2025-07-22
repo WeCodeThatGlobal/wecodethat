@@ -86,7 +86,6 @@ const techStack = [
   "WebSocket (Real-time gameplay)",
   "Figma (UI/UX)",
   "Firebase (Notifications & Authentication)",
-  "Stripe (Payments)",
 ];
 
 const ongoing = [
@@ -296,12 +295,12 @@ const page = () => {
           <section className="space-y-5">
             <h2 className="text-lg font-bold">What Our Users Say:</h2>
             <blockquote className="italic border-l-4 border-gray-400 pl-4">
-              “ChessPlay.io changed how we teach. Everything is in one place
-              now—lessons, games, quizzes, even billing. I finally feel like I’m
-              running a proper online academy.”
+              “We finally stopped juggling tools. ChessPlay.io gave us
+              everything we needed to teach better, track growth, and focus on
+              what matters our students.”
               <br />
               <span className="block font-semibold mt-2">
-                — Senior Coach, Global Chess School
+                — Lakshmanan Arumugam, Head Coach, Achievers Chess Academy
               </span>
             </blockquote>
           </section>

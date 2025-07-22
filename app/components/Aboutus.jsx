@@ -12,14 +12,14 @@ const WhatWeDo = () => {
             <div className="col-span-2 image-hover flex self-center position-relative overflow-hidden">
               <img
                 className="w-full h-auto rounded-md"
-                src="/aboutus/about-us-01.jpg"
+                src="/aboutus/about-us-02.jpg"
                 alt="Descriptive alt text"
               />
             </div>
             <div className="col-span-3 image-hover position-relative overflow-hidden">
               <img
                 className="w-full h-auto rounded-md"
-                src="/aboutus/about-us-02.jpg"
+                src="/aboutus/about-us-01.jpg"
                 alt="Descriptive alt text"
               />
             </div>

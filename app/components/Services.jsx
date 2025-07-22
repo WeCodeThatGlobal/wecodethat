@@ -12,7 +12,7 @@ const Services = () => {
           <Header title="Services That Help You Grow." subtitle="What We Do" />
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
-            <div className="card group relative p-6 bg-white shadow rounded-md bg-service-01">
+            <div className="card group relative p-6 bg-white shadow rounded-md bg-service-01 bg-cover bg-center">
               <span className="icon ">
                 <Image src="/icon/13.png" width={40} height={40} />
               </span>
@@ -54,7 +54,7 @@ const Services = () => {
                 </div>
               </div>
             </div>
-            <div className="card group relative p-6 bg-white shadow rounded-md bg-service-02">
+            <div className="card group relative p-6 bg-white shadow rounded-md bg-service-02 bg-cover bg-center">
               <span className="icon">
                 <Image src="/icon/14.png" width={40} height={40} />
               </span>
@@ -96,7 +96,7 @@ const Services = () => {
                 </div>
               </div>
             </div>
-            <div className="card group relative p-6 bg-white shadow rounded-md bg-service-03">
+            <div className="card group relative p-6 bg-white shadow rounded-md bg-service-03 bg-cover bg-center">
               <span className="icon">
                 <Image src="/icon/15.png" width={40} height={40} />
               </span>

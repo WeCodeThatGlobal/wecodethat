@@ -21,14 +21,13 @@ const CTAv1 = ({ cta }) => {
             </h3>
           </div>
           <div className=" flex items-center justify-center">
-          <a
-            href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ0THqOtbWCkTEfTRS6X_4n16i8N0hFxFi_s6PKGGqCrZAHWCbgBmBtOFmqcFGOTZ3MdC8hK6RMI?gv=true"
-            target="blank"
-            className="group relative inline-flex h-10 items-center justify-center overflow-hidden rounded-md bg-neutral-50 hover:text-blue-600 px-6 font-semibold text-sm text-neutral-50 "
-          >
-            <span className="absolute h-48 w-44 rounded-full bg-blue-600 transition-all duration-300 group-hover:h-0 group-hover:w-0"></span>
-            <span className="relative">Book a Free Call</span>
-          </a>
+            <a
+              href="/contact-us"
+              className="group relative inline-flex h-10 items-center justify-center overflow-hidden rounded-md bg-neutral-50 hover:text-blue-600 px-6 font-semibold text-sm text-neutral-50 "
+            >
+              <span className="absolute h-48 w-44 rounded-full bg-blue-600 transition-all duration-300 group-hover:h-0 group-hover:w-0"></span>
+              <span className="relative">Contact Us</span>
+            </a>
           </div>
         </div>
       </div>

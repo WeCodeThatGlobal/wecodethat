@@ -16,7 +16,7 @@ module.exports = {
         "pr-calc": "calc(var(--bs-gutter-x) * 0.5)",
       },
       backgroundImage: {
-        "service-01": "url('/services/service-01.jpg')",
+        "service-01": "url('/services/service-01.webp')",
         "service-02": "url('/services/service-02.jpg')",
         "service-03": "url('/services/service-03.jpg')",
       },

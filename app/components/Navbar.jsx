@@ -96,16 +96,10 @@ export const Navbar = ({ showStickyNav }) => {
               </a>
             </Link>
             <hr className="border-gray-800" />
-            <Link
-              href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ0THqOtbWCkTEfTRS6X_4n16i8N0hFxFi_s6PKGGqCrZAHWCbgBmBtOFmqcFGOTZ3MdC8hK6RMI?gv=true"
-              legacyBehavior
-            >
-              <a
-                target="blank"
-                className="group relative inline-flex h-10 items-center justify-center overflow-hidden rounded-md bg-neutral-950 px-6 font-semibold text-sm text-neutral-50 "
-              >
+            <Link href="/contact-us" legacyBehavior>
+              <a className="group relative inline-flex h-10 items-center justify-center overflow-hidden rounded-md bg-neutral-950 px-6 font-semibold text-sm text-neutral-50 ">
                 <span className="absolute h-48 w-44 rounded-full bg-blue-600 transition-all duration-300 group-hover:h-0 group-hover:w-0"></span>
-                <span className="relative">Book a Free Call</span>
+                <span className="relative">Contact Us</span>
               </a>
             </Link>
           </div>

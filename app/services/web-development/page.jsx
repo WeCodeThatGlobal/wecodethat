@@ -63,11 +63,11 @@ const page = () => {
           </div>
         </Sidebar>
         <MainContent>
-          <div className="image-hover">
+          <div className="image-hover h-[400px]">
             <img
-              className="rounded-lg"
+              className="rounded-lg h-full w-full object-cover"
               decoding="async"
-              src="https://flywebwp.websitelayout.net/wp-content/uploads/2023/09/service-details-01.jpg"
+              src="/services/web/Hero-image-01.png"
               title="service-details-01"
               alt="service-details-01"
               loading="lazy"
@@ -87,34 +87,8 @@ const page = () => {
             <div className="grid grid-cols-2 my-8 gap-4">
               <div className="bg-slate-100 rounded-lg flex items-center">
                 <img
-                  className="rounded-l-lg"
-                  src="https://flywebwp.websitelayout.net/wp-content/uploads/2023/09/service-details-2.jpg"
-                />
-                <div className="p-4">
-                  <h4 className="font-bold text-xl">Scalable Designs</h4>
-                  <p className="mt-2 text-gray-800">
-                    Stand out with a tailored website that grows with your
-                    business needs.
-                  </p>
-                </div>
-              </div>
-              <div className="bg-slate-100 rounded-lg flex items-center">
-                <img
-                  className="rounded-l-lg"
-                  src="https://flywebwp.websitelayout.net/wp-content/uploads/2023/09/service-details-3.jpg"
-                />
-                <div className="p-4">
-                  <h4 className="font-bold text-xl">Responsive and Fast</h4>
-                  <p className="mt-2 text-gray-800">
-                    Enjoy seamless performance across all devices for better
-                    user experiences.
-                  </p>
-                </div>
-              </div>
-              <div className="bg-slate-100 rounded-lg flex items-center">
-                <img
-                  className="rounded-l-lg"
-                  src="https://flywebwp.websitelayout.net/wp-content/uploads/2023/09/service-details-3.jpg"
+                  className="rounded-l-lg w-2/5 h-full object-cover object-center"
+                  src="/services/web/service-03.png"
                 />
                 <div className="p-4">
                   <h4 className="font-bold text-xl">SEO Optimized</h4>
@@ -126,8 +100,36 @@ const page = () => {
               </div>
               <div className="bg-slate-100 rounded-lg flex items-center">
                 <img
-                  className="rounded-l-lg"
-                  src="https://flywebwp.websitelayout.net/wp-content/uploads/2023/09/service-details-3.jpg"
+                  className="rounded-l-lg w-2/5 h-full"
+                  src="/services/web/service-01.png"
+                />
+                <div className="p-4">
+                  <h4 className="font-bold text-xl">Scalable Designs</h4>
+                  <p className="mt-2 text-gray-800">
+                    Stand out with a tailored website that grows with your
+                    business needs.
+                  </p>
+                </div>
+              </div>
+
+              <div className="bg-slate-100 rounded-lg flex items-center">
+                <img
+                  className="rounded-l-lg w-2/5 h-full object-cover object-center"
+                  src="/services/web/service-02.png"
+                />
+                <div className="p-4">
+                  <h4 className="font-bold text-xl">Responsive and Fast</h4>
+                  <p className="mt-2 text-gray-800">
+                    Enjoy seamless performance across all devices for better
+                    user experiences.
+                  </p>
+                </div>
+              </div>
+
+              <div className="bg-slate-100 rounded-lg flex items-center">
+                <img
+                  className="rounded-l-lg w-2/5 h-full object-cover object-center"
+                  src="/services/web/service-04.png"
                 />
                 <div className="p-4">
                   <h4 className="font-bold text-xl">Secure and Reliable </h4>

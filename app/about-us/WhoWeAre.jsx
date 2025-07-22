@@ -77,7 +77,7 @@ const WhoWeAre = () => {
                 <figure className="!rounded-[.4rem] shadow-[0_0_1.25rem_rgba(30,34,40,0.04)] relative">
                   <img
                     className="!rounded-[.4rem] "
-                    src="/images/who-we-are-1.jpg"
+                    src="/images/who-we-are-3.jpg"
                     // srcset="./assets/img/photos/about3@2x.jpg 2x"
                     alt="image"
                   />

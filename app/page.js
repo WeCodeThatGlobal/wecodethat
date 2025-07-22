@@ -39,7 +39,7 @@ export default function HeroSection() {
       <WhoWeAre2 />
       <Aboutus />
       <Testimonials />
-      <Blog />
+      {/* <Blog /> */}
       <CaseStudy />
       <AppointmentBook />
       <Footer />
