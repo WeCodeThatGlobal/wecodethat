@@ -66,9 +66,9 @@ const page = () => {
               />
               <Item
                 avatar="/avatar/002-man.png"
-                name="Karthik Raja"
+                name="Karthik"
                 designation="co-founder"
-                link="https://www.linkedin.com/in/karthikraja34/"
+                link=""
               />
               <Item
                 avatar="/avatar/003-man-1.png"
