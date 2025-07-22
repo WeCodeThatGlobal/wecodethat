@@ -67,7 +67,7 @@ const page = () => {
             <img
               className="rounded-lg"
               decoding="async"
-              src="https://flywebwp.websitelayout.net/wp-content/uploads/2023/09/service-details-01.jpg"
+              src="/services/web/service-details-01.jpg"
               title="service-details-01"
               alt="service-details-01"
               loading="lazy"
@@ -90,7 +90,7 @@ const page = () => {
               <div className="bg-slate-100 rounded-lg flex items-center">
                 <img
                   className="rounded-l-lg"
-                  src="https://flywebwp.websitelayout.net/wp-content/uploads/2023/09/service-details-2.jpg"
+                  src="/services/web/service-details-2.jpg"
                 />
                 <div className="p-4">
                   <h4 className="font-bold text-xl">
@@ -105,7 +105,7 @@ const page = () => {
               <div className="bg-slate-100 rounded-lg flex items-center">
                 <img
                   className="rounded-l-lg"
-                  src="https://flywebwp.websitelayout.net/wp-content/uploads/2023/09/service-details-3.jpg"
+                  src="/services/web/service-details-3.jpg"
                 />
                 <div className="p-4">
                   <h4 className="font-bold text-xl">High-Performance Apps</h4>
@@ -118,7 +118,7 @@ const page = () => {
               <div className="bg-slate-100 rounded-lg flex items-center">
                 <img
                   className="rounded-l-lg"
-                  src="https://flywebwp.websitelayout.net/wp-content/uploads/2023/09/service-details-3.jpg"
+                  src="/services/web/service-details-4.jpg"
                 />
                 <div className="p-4">
                   <h4 className="font-bold text-xl">
@@ -133,7 +133,7 @@ const page = () => {
               <div className="bg-slate-100 rounded-lg flex items-center">
                 <img
                   className="rounded-l-lg"
-                  src="https://flywebwp.websitelayout.net/wp-content/uploads/2023/09/service-details-3.jpg"
+                  src="/services/web/service-details-5.jpg"
                 />
                 <div className="p-4">
                   <h4 className="font-bold text-xl">Scalable Solutions</h4>

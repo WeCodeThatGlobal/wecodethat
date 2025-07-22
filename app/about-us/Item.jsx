@@ -3,8 +3,8 @@ import React from "react";
 const Item = ({ avatar, name, designation, link }) => {
   return (
     <div className="p-5">
-      <div className="image-hover position-relative overflow-hidden">
-        <div className="py-[40px] shadow-sm rounded-lg border flex flex-col items-center bg-gray-950">
+      <div className="image-hover position-relative overflow-hidden h-full">
+        <div className="py-[40px] shadow-sm rounded-lg border flex flex-col items-center h-full bg-gray-950">
           <div className="">
             <img
               className="rounded-[50%] w-20 mb-4 image-hover"

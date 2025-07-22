@@ -57,7 +57,7 @@ const page = () => {
                 Save your time and money by choosing our professional team.
               </h3>
             </div>
-            <div className=" relative z-10 grid grid-cols-3 max-w-4xl mx-auto">
+            <div className=" relative z-10 grid grid-cols-4 max-w-5xl mx-auto">
               <Item
                 avatar="/avatar/001-boy.png"
                 name="Subhankar Kumar"
@@ -93,6 +93,18 @@ const page = () => {
                 name="Sharan Srinivasan"
                 designation="Digital Marketing Specialist"
                 link="https://www.linkedin.com/in/sharan-srinivasan-868b4027b/"
+              />
+              <Item
+                avatar="/avatar/006-man-4.png"
+                name="Mukund Solanki"
+                designation="Associate Flutter Developer"
+                link="https://www.linkedin.com/in/mukundsolanki?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BVMR%2BLThVTj21OIFIO6McOg%3D%3D"
+              />
+              <Item
+                avatar="/avatar/006-man-4.png"
+                name="Mohit Singh"
+                designation="Associate Back-End Developer"
+                link="https://www.linkedin.com/in/mohiitsingh?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B1nqXZq1tTDyVBE2By2Xbrw%3D%3D"
               />
               <div className="w-36 absolute left-0 top-0 -translate-y-12 -translate-x-9 -z-10">
                 <img src="/svg/circlestrip.svg" className="w-full" alt="" />
