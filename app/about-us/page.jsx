@@ -65,12 +65,6 @@ const page = () => {
                 link="https://www.linkedin.com/in/subhankarkumar/"
               />
               <Item
-                avatar="/avatar/002-man.png"
-                name="Karthik"
-                designation="co-founder"
-                link=""
-              />
-              <Item
                 avatar="/avatar/003-man-1.png"
                 name="Asim P A"
                 designation="Associate Full Stack Developer"
